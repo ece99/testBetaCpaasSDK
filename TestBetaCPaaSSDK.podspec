@@ -22,10 +22,10 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/ece99/testBetaCpaasSDK'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ece99' => 'eceserver.ayvaz@gmail.com' }
   s.source           = { :git => 'https://github.com/ece99/testBetaCpaasSDK.git', :tag => '0.1.0' }
 
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.platform          = :ios
   s.ios.deployment_target = '11.0'
   s.dependency  'KandyWebRTC'

@@ -1,0 +1,1171 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPAuthenticationModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPConnectionState",
+        "printedName": "CPConnectionState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "disconnected",
+            "printedName": "disconnected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPAuthenticationModule.CPConnectionState.Type) -> CPAuthenticationModule.CPConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPConnectionState",
+                    "printedName": "CPAuthenticationModule.CPConnectionState",
+                    "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPAuthenticationModule.CPConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPConnectionState",
+                        "printedName": "CPAuthenticationModule.CPConnectionState",
+                        "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState@CPConnectionStateDisconnected",
+            "mangledName": "$s22CPAuthenticationModule17CPConnectionStateO12disconnectedyA2CmF",
+            "moduleName": "CPAuthenticationModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "connected",
+            "printedName": "connected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPAuthenticationModule.CPConnectionState.Type) -> CPAuthenticationModule.CPConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPConnectionState",
+                    "printedName": "CPAuthenticationModule.CPConnectionState",
+                    "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPAuthenticationModule.CPConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPConnectionState",
+                        "printedName": "CPAuthenticationModule.CPConnectionState",
+                        "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState@CPConnectionStateConnected",
+            "mangledName": "$s22CPAuthenticationModule17CPConnectionStateO9connectedyA2CmF",
+            "moduleName": "CPAuthenticationModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CPAuthenticationModule.CPConnectionState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPConnectionState",
+                    "printedName": "CPAuthenticationModule.CPConnectionState",
+                    "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CPAuthenticationModule17CPConnectionStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s22CPAuthenticationModule17CPConnectionStateO8rawValueACSgSi_tcfc",
+            "moduleName": "CPAuthenticationModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22CPAuthenticationModule17CPConnectionStateO8rawValueSivp",
+            "mangledName": "$s22CPAuthenticationModule17CPConnectionStateO8rawValueSivp",
+            "moduleName": "CPAuthenticationModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22CPAuthenticationModule17CPConnectionStateO8rawValueSivg",
+                "mangledName": "$s22CPAuthenticationModule17CPConnectionStateO8rawValueSivg",
+                "moduleName": "CPAuthenticationModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState",
+        "mangledName": "$s22CPAuthenticationModule17CPConnectionStateO",
+        "moduleName": "CPAuthenticationModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPAuthenticationModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificationEngine",
+        "printedName": "NotificationEngine",
+        "declKind": "Import",
+        "moduleName": "CPAuthenticationModule"
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPAuthenticationModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPAuthenticationModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPAuthenticationDelegate",
+        "printedName": "CPAuthenticationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "connectionStatusChanged",
+            "printedName": "connectionStatusChanged(state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPConnectionState",
+                "printedName": "CPAuthenticationModule.CPConnectionState",
+                "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAuthenticationModule@objc(pl)CPAuthenticationDelegate(im)connectionStatusChangedWithState:",
+            "mangledName": "$s22CPAuthenticationModule0A8DelegateP23connectionStatusChanged5stateyAA17CPConnectionStateO_tF",
+            "moduleName": "CPAuthenticationModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : CPAuthenticationModule.CPAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : CPAuthenticationModule.CPAuthenticationDelegate>",
+            "protocolReq": true,
+            "objc_name": "connectionStatusChangedWithState:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onChannelInfoChanged",
+            "printedName": "onChannelInfoChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAuthenticationModule@objc(pl)CPAuthenticationDelegate(im)onChannelInfoChanged:",
+            "mangledName": "$s22CPAuthenticationModule0A8DelegateP20onChannelInfoChangedyySSF",
+            "moduleName": "CPAuthenticationModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : CPAuthenticationModule.CPAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : CPAuthenticationModule.CPAuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@CPAuthenticationModule@objc(pl)CPAuthenticationDelegate",
+        "mangledName": "$s22CPAuthenticationModule0A8DelegateP",
+        "moduleName": "CPAuthenticationModule",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RestManager",
+        "printedName": "RestManager",
+        "declKind": "Import",
+        "moduleName": "CPAuthenticationModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificationEngine",
+        "printedName": "NotificationEngine",
+        "declKind": "Import",
+        "moduleName": "CPAuthenticationModule"
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPAuthenticationModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPAuthenticationService",
+        "printedName": "CPAuthenticationService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CPAuthenticationModule.CPAuthenticationDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPAuthenticationDelegate",
+                    "printedName": "CPAuthenticationModule.CPAuthenticationDelegate",
+                    "usr": "c:@M@CPAuthenticationModule@objc(pl)CPAuthenticationDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(py)delegate",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceC8delegateAA0A8Delegate_pSgvp",
+            "moduleName": "CPAuthenticationModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPAuthenticationModule.CPAuthenticationDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPAuthenticationDelegate",
+                        "printedName": "CPAuthenticationModule.CPAuthenticationDelegate",
+                        "usr": "c:@M@CPAuthenticationModule@objc(pl)CPAuthenticationDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)delegate",
+                "mangledName": "$s22CPAuthenticationModule0A7ServiceC8delegateAA0A8Delegate_pSgvg",
+                "moduleName": "CPAuthenticationModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPAuthenticationModule.CPAuthenticationDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPAuthenticationDelegate",
+                        "printedName": "CPAuthenticationModule.CPAuthenticationDelegate",
+                        "usr": "c:@M@CPAuthenticationModule@objc(pl)CPAuthenticationDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)setDelegate:",
+                "mangledName": "$s22CPAuthenticationModule0A7ServiceC8delegateAA0A8Delegate_pSgvs",
+                "moduleName": "CPAuthenticationModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22CPAuthenticationModule0A7ServiceC8delegateAA0A8Delegate_pSgvM",
+                "mangledName": "$s22CPAuthenticationModule0A7ServiceC8delegateAA0A8Delegate_pSgvM",
+                "moduleName": "CPAuthenticationModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionState",
+            "printedName": "connectionState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPConnectionState",
+                "printedName": "CPAuthenticationModule.CPConnectionState",
+                "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(py)connectionState",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceC15connectionStateAA012CPConnectionE0Ovp",
+            "moduleName": "CPAuthenticationModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPConnectionState",
+                    "printedName": "CPAuthenticationModule.CPConnectionState",
+                    "usr": "c:@M@CPAuthenticationModule@E@CPConnectionState"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)connectionState",
+                "mangledName": "$s22CPAuthenticationModule0A7ServiceC15connectionStateAA012CPConnectionE0Ovg",
+                "moduleName": "CPAuthenticationModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userInfo:services:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPAuthenticationService",
+                "printedName": "CPAuthenticationModule.CPAuthenticationService",
+                "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPUserInfo",
+                "printedName": "CPUtilities.CPUserInfo",
+                "usr": "c:objc(cs)CPUserInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CPUtilities.CPServiceProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPServiceProtocol",
+                    "printedName": "CPUtilities.CPServiceProtocol",
+                    "usr": "c:@M@CPUtilities@objc(pl)CPServiceProtocol"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CPAuthenticationModule0A7ServiceC8userInfo8servicesACSo06CPUserE0C_Say11CPUtilities17CPServiceProtocol_pGtcfc",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceC8userInfo8servicesACSo06CPUserE0C_Say11CPUtilities17CPServiceProtocol_pGtcfc",
+            "moduleName": "CPAuthenticationModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setToken",
+            "printedName": "setToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)setToken:",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceC8setTokenyySSF",
+            "moduleName": "CPAuthenticationModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(idToken:accessToken:lifetime:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)connectWithIdToken:accessToken:lifetime:completion:",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceC7connect7idToken06accessF08lifetime10completionySS_SSSiySo7CPErrorCSg_SSSgtctF",
+            "moduleName": "CPAuthenticationModule",
+            "objc_name": "connectWithIdToken:accessToken:lifetime:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(idToken:lifetime:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)connectWithIdToken:lifetime:completion:",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceC7connect7idToken8lifetime10completionySS_SiySo7CPErrorCSg_SSSgtctF",
+            "moduleName": "CPAuthenticationModule",
+            "objc_name": "connectWithIdToken:lifetime:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(idToken:accessToken:lifetime:channelInfo:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)connectWithIdToken:accessToken:lifetime:channelInfo:completion:",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceC7connect7idToken06accessF08lifetime11channelInfo10completionySS_SSSiSSySo7CPErrorCSg_SSSgtctF",
+            "moduleName": "CPAuthenticationModule",
+            "objc_name": "connectWithIdToken:accessToken:lifetime:channelInfo:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(idToken:lifetime:channelInfo:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)connectWithIdToken:lifetime:channelInfo:completion:",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceC7connect7idToken8lifetime11channelInfo10completionySS_SiSSySo7CPErrorCSg_SSSgtctF",
+            "moduleName": "CPAuthenticationModule",
+            "objc_name": "connectWithIdToken:lifetime:channelInfo:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)disconnectWithCompletion:",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceC10disconnect10completionyySo7CPErrorCSgc_tF",
+            "moduleName": "CPAuthenticationModule",
+            "objc_name": "disconnectWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPAuthenticationService",
+                "printedName": "CPAuthenticationModule.CPAuthenticationService",
+                "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService(im)init",
+            "mangledName": "$s22CPAuthenticationModule0A7ServiceCACycfc",
+            "moduleName": "CPAuthenticationModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService",
+        "mangledName": "$s22CPAuthenticationModule0A7ServiceC",
+        "moduleName": "CPAuthenticationModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAuthenticationModule\/CPAuthenticationModule\/AuthenticationStates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 670,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAuthenticationModule\/CPAuthenticationModule\/AuthenticationStates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 747,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAuthenticationModule\/CPAuthenticationModule\/AuthenticationStates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 670,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAuthenticationModule\/CPAuthenticationModule\/AuthenticationStates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 747,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAuthenticationModule\/CPAuthenticationModule\/CPAuthenticationService.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 25,
+      "value": "\"CPAuthenticationService\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAuthenticationModule\/CPAuthenticationModule\/CPAuthenticationService.swift",
+      "kind": "StringLiteral",
+      "offset": 713,
+      "length": 21,
+      "value": "\"notificationchannel\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAuthenticationModule\/CPAuthenticationModule\/CPAuthenticationService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2102,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAuthenticationModule\/CPAuthenticationModule\/CPAuthenticationService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2534,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAuthenticationModule\/CPAuthenticationModule\/CPAuthenticationService.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 23,
+      "value": "\"CPAuthenticationModule.CPAuthenticationService\""
+    }
+  ]
+}

@@ -1,0 +1,5098 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPContact",
+        "printedName": "CPContact",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "contactId",
+            "printedName": "contactId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)contactId",
+            "mangledName": "$s19CPAddressBookModule9CPContactC9contactIdSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)contactId",
+                "mangledName": "$s19CPAddressBookModule9CPContactC9contactIdSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setContactId:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC9contactIdSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC9contactIdSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC9contactIdSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstName",
+            "printedName": "firstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)firstName",
+            "mangledName": "$s19CPAddressBookModule9CPContactC9firstNameSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)firstName",
+                "mangledName": "$s19CPAddressBookModule9CPContactC9firstNameSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setFirstName:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC9firstNameSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC9firstNameSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC9firstNameSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastName",
+            "printedName": "lastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)lastName",
+            "mangledName": "$s19CPAddressBookModule9CPContactC8lastNameSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)lastName",
+                "mangledName": "$s19CPAddressBookModule9CPContactC8lastNameSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setLastName:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC8lastNameSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC8lastNameSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC8lastNameSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)email",
+            "mangledName": "$s19CPAddressBookModule9CPContactC5emailSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)email",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5emailSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setEmail:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5emailSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC5emailSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5emailSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "homePhoneNumber",
+            "printedName": "homePhoneNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)homePhoneNumber",
+            "mangledName": "$s19CPAddressBookModule9CPContactC15homePhoneNumberSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)homePhoneNumber",
+                "mangledName": "$s19CPAddressBookModule9CPContactC15homePhoneNumberSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setHomePhoneNumber:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC15homePhoneNumberSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC15homePhoneNumberSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC15homePhoneNumberSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "businessPhoneNumber",
+            "printedName": "businessPhoneNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)businessPhoneNumber",
+            "mangledName": "$s19CPAddressBookModule9CPContactC19businessPhoneNumberSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)businessPhoneNumber",
+                "mangledName": "$s19CPAddressBookModule9CPContactC19businessPhoneNumberSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setBusinessPhoneNumber:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC19businessPhoneNumberSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC19businessPhoneNumberSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC19businessPhoneNumberSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fax",
+            "printedName": "fax",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)fax",
+            "mangledName": "$s19CPAddressBookModule9CPContactC3faxSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)fax",
+                "mangledName": "$s19CPAddressBookModule9CPContactC3faxSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setFax:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC3faxSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC3faxSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC3faxSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobile",
+            "printedName": "mobile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)mobile",
+            "mangledName": "$s19CPAddressBookModule9CPContactC6mobileSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)mobile",
+                "mangledName": "$s19CPAddressBookModule9CPContactC6mobileSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setMobile:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC6mobileSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC6mobileSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC6mobileSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pager",
+            "printedName": "pager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)pager",
+            "mangledName": "$s19CPAddressBookModule9CPContactC5pagerSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)pager",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5pagerSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setPager:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5pagerSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC5pagerSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5pagerSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buddy",
+            "printedName": "buddy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)buddy",
+            "mangledName": "$s19CPAddressBookModule9CPContactC5buddySbvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)buddy",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5buddySbvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setBuddy:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5buddySbvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC5buddySbvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5buddySbvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "photoUrl",
+            "printedName": "photoUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)photoUrl",
+            "mangledName": "$s19CPAddressBookModule9CPContactC8photoUrlSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)photoUrl",
+                "mangledName": "$s19CPAddressBookModule9CPContactC8photoUrlSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "conferenceUrl",
+            "printedName": "conferenceUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)conferenceUrl",
+            "mangledName": "$s19CPAddressBookModule9CPContactC13conferenceUrlSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)conferenceUrl",
+                "mangledName": "$s19CPAddressBookModule9CPContactC13conferenceUrlSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "username",
+            "printedName": "username",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)username",
+            "mangledName": "$s19CPAddressBookModule9CPContactC8usernameSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)username",
+                "mangledName": "$s19CPAddressBookModule9CPContactC8usernameSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setUsername:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC8usernameSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC8usernameSSvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC8usernameSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lists",
+            "printedName": "lists",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CPAddressBookModule.CPAddressBookList]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPAddressBookList",
+                    "printedName": "CPAddressBookModule.CPAddressBookList",
+                    "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(py)lists",
+            "mangledName": "$s19CPAddressBookModule9CPContactC5listsSayAA0aB4ListCGvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CPAddressBookModule.CPAddressBookList]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPAddressBookList",
+                        "printedName": "CPAddressBookModule.CPAddressBookList",
+                        "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)lists",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5listsSayAA0aB4ListCGvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CPAddressBookModule.CPAddressBookList]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPAddressBookList",
+                        "printedName": "CPAddressBookModule.CPAddressBookList",
+                        "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)setLists:",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5listsSayAA0aB4ListCGvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule9CPContactC5listsSayAA0aB4ListCGvM",
+                "mangledName": "$s19CPAddressBookModule9CPContactC5listsSayAA0aB4ListCGvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contactId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPContact",
+                "printedName": "CPAddressBookModule.CPContact",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact(im)initWithContactId:",
+            "mangledName": "$s19CPAddressBookModule9CPContactC9contactIdACSS_tcfc",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "initWithContactId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact",
+        "mangledName": "$s19CPAddressBookModule9CPContactC",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPAddressBookList",
+        "printedName": "CPAddressBookList",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "listId",
+            "printedName": "listId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList(py)listId",
+            "mangledName": "$s19CPAddressBookModule0aB4ListC6listIdSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList(im)listId",
+                "mangledName": "$s19CPAddressBookModule0aB4ListC6listIdSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList(im)setListId:",
+                "mangledName": "$s19CPAddressBookModule0aB4ListC6listIdSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule0aB4ListC6listIdSSvM",
+                "mangledName": "$s19CPAddressBookModule0aB4ListC6listIdSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resourceUrl",
+            "printedName": "resourceUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList(py)resourceUrl",
+            "mangledName": "$s19CPAddressBookModule0aB4ListC11resourceUrlSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList(im)resourceUrl",
+                "mangledName": "$s19CPAddressBookModule0aB4ListC11resourceUrlSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList(im)setResourceUrl:",
+                "mangledName": "$s19CPAddressBookModule0aB4ListC11resourceUrlSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule0aB4ListC11resourceUrlSSvM",
+                "mangledName": "$s19CPAddressBookModule0aB4ListC11resourceUrlSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(listId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPAddressBookList",
+                "printedName": "CPAddressBookModule.CPAddressBookList",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList(im)initWithListId:",
+            "mangledName": "$s19CPAddressBookModule0aB4ListC6listIdACSS_tcfc",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "initWithListId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPAddressBookList",
+                "printedName": "CPAddressBookModule.CPAddressBookList",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList(im)init",
+            "mangledName": "$s19CPAddressBookModule0aB4ListCACycfc",
+            "moduleName": "CPAddressBookModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList",
+        "mangledName": "$s19CPAddressBookModule0aB4ListC",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPSearchFilter",
+        "printedName": "CPSearchFilter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FieldType",
+                "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter(py)type",
+            "mangledName": "$s19CPAddressBookModule14CPSearchFilterC4typeAA0aB0C9FieldTypeOvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FieldType",
+                    "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                    "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter(im)type",
+                "mangledName": "$s19CPAddressBookModule14CPSearchFilterC4typeAA0aB0C9FieldTypeOvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter(py)value",
+            "mangledName": "$s19CPAddressBookModule14CPSearchFilterC5valueSSSgvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter(im)value",
+                "mangledName": "$s19CPAddressBookModule14CPSearchFilterC5valueSSSgvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:forType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPSearchFilter",
+                "printedName": "CPAddressBookModule.CPSearchFilter",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FieldType",
+                "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter(im)initWithValue:forType:",
+            "mangledName": "$s19CPAddressBookModule14CPSearchFilterC5value7forTypeACSS_AA0aB0C05FieldH0Otcfc",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "initWithValue:forType:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter",
+        "mangledName": "$s19CPAddressBookModule14CPSearchFilterC",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPAddressBook",
+        "printedName": "CPAddressBook",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "FieldType",
+            "printedName": "FieldType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CPAddressBookModule.CPAddressBook.FieldType.Type) -> CPAddressBookModule.CPAddressBook.FieldType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FieldType",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                        "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FieldType",
+                            "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                            "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO4nameyA2EmF",
+                "mangledName": "$s19CPAddressBookModule0aB0C9FieldTypeO4nameyA2EmF",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "firstname",
+                "printedName": "firstname",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CPAddressBookModule.CPAddressBook.FieldType.Type) -> CPAddressBookModule.CPAddressBook.FieldType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FieldType",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                        "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FieldType",
+                            "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                            "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO9firstnameyA2EmF",
+                "mangledName": "$s19CPAddressBookModule0aB0C9FieldTypeO9firstnameyA2EmF",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "lastname",
+                "printedName": "lastname",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CPAddressBookModule.CPAddressBook.FieldType.Type) -> CPAddressBookModule.CPAddressBook.FieldType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FieldType",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                        "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FieldType",
+                            "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                            "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO8lastnameyA2EmF",
+                "mangledName": "$s19CPAddressBookModule0aB0C9FieldTypeO8lastnameyA2EmF",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "username",
+                "printedName": "username",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CPAddressBookModule.CPAddressBook.FieldType.Type) -> CPAddressBookModule.CPAddressBook.FieldType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FieldType",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                        "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FieldType",
+                            "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                            "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO8usernameyA2EmF",
+                "mangledName": "$s19CPAddressBookModule0aB0C9FieldTypeO8usernameyA2EmF",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Var",
+                "name": "phoneNumber",
+                "printedName": "phoneNumber",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CPAddressBookModule.CPAddressBook.FieldType.Type) -> CPAddressBookModule.CPAddressBook.FieldType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FieldType",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                        "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FieldType",
+                            "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                            "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO11phoneNumberyA2EmF",
+                "mangledName": "$s19CPAddressBookModule0aB0C9FieldTypeO11phoneNumberyA2EmF",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 4
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO8rawValueSSvp",
+                "mangledName": "$s19CPAddressBookModule0aB0C9FieldTypeO8rawValueSSvp",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO8rawValueSSvg",
+                    "mangledName": "$s19CPAddressBookModule0aB0C9FieldTypeO8rawValueSSvg",
+                    "moduleName": "CPAddressBookModule",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPAddressBookModule.CPAddressBook.FieldType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FieldType",
+                        "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                        "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s19CPAddressBookModule0aB0C9FieldTypeO8rawValueAESgSS_tcfc",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO",
+            "mangledName": "$s19CPAddressBookModule0aB0C9FieldTypeO",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "CPAddressBookFieldType",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "OrderType",
+            "printedName": "OrderType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "ascending",
+                "printedName": "ascending",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CPAddressBookModule.CPAddressBook.OrderType.Type) -> CPAddressBookModule.CPAddressBook.OrderType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OrderType",
+                        "printedName": "CPAddressBookModule.CPAddressBook.OrderType",
+                        "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CPAddressBookModule.CPAddressBook.OrderType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "OrderType",
+                            "printedName": "CPAddressBookModule.CPAddressBook.OrderType",
+                            "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO9ascendingyA2EmF",
+                "mangledName": "$s19CPAddressBookModule0aB0C9OrderTypeO9ascendingyA2EmF",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "descending",
+                "printedName": "descending",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CPAddressBookModule.CPAddressBook.OrderType.Type) -> CPAddressBookModule.CPAddressBook.OrderType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OrderType",
+                        "printedName": "CPAddressBookModule.CPAddressBook.OrderType",
+                        "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CPAddressBookModule.CPAddressBook.OrderType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "OrderType",
+                            "printedName": "CPAddressBookModule.CPAddressBook.OrderType",
+                            "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO10descendingyA2EmF",
+                "mangledName": "$s19CPAddressBookModule0aB0C9OrderTypeO10descendingyA2EmF",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO8rawValueSSvp",
+                "mangledName": "$s19CPAddressBookModule0aB0C9OrderTypeO8rawValueSSvp",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO8rawValueSSvg",
+                    "mangledName": "$s19CPAddressBookModule0aB0C9OrderTypeO8rawValueSSvg",
+                    "moduleName": "CPAddressBookModule",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPAddressBookModule.CPAddressBook.OrderType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OrderType",
+                        "printedName": "CPAddressBookModule.CPAddressBook.OrderType",
+                        "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s19CPAddressBookModule0aB0C9OrderTypeO8rawValueAESgSS_tcfc",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO",
+            "mangledName": "$s19CPAddressBookModule0aB0C9OrderTypeO",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "CPAddressBookOrderType",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBook",
+        "mangledName": "$s19CPAddressBookModule0aB0C",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RestManager",
+        "printedName": "RestManager",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule"
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPSearch",
+        "printedName": "CPSearch",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "filter",
+            "printedName": "filter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPSearchFilter",
+                "printedName": "CPAddressBookModule.CPSearchFilter",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(py)filter",
+            "mangledName": "$s19CPAddressBookModule8CPSearchC6filterAA0D6FilterCvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPSearchFilter",
+                    "printedName": "CPAddressBookModule.CPSearchFilter",
+                    "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)filter",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC6filterAA0D6FilterCvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPSearchFilter",
+                    "printedName": "CPAddressBookModule.CPSearchFilter",
+                    "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)setFilter:",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC6filterAA0D6FilterCvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule8CPSearchC6filterAA0D6FilterCvM",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC6filterAA0D6FilterCvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sortBy",
+            "printedName": "sortBy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FieldType",
+                "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(py)sortBy",
+            "mangledName": "$s19CPAddressBookModule8CPSearchC6sortByAA0aB0C9FieldTypeOvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FieldType",
+                    "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                    "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)sortBy",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC6sortByAA0aB0C9FieldTypeOvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FieldType",
+                    "printedName": "CPAddressBookModule.CPAddressBook.FieldType",
+                    "usr": "s:19CPAddressBookModule0aB0C9FieldTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)setSortBy:",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC6sortByAA0aB0C9FieldTypeOvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule8CPSearchC6sortByAA0aB0C9FieldTypeOvM",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC6sortByAA0aB0C9FieldTypeOvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orderBy",
+            "printedName": "orderBy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrderType",
+                "printedName": "CPAddressBookModule.CPAddressBook.OrderType",
+                "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(py)orderBy",
+            "mangledName": "$s19CPAddressBookModule8CPSearchC7orderByAA0aB0C9OrderTypeOvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OrderType",
+                    "printedName": "CPAddressBookModule.CPAddressBook.OrderType",
+                    "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)orderBy",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC7orderByAA0aB0C9OrderTypeOvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OrderType",
+                    "printedName": "CPAddressBookModule.CPAddressBook.OrderType",
+                    "usr": "s:19CPAddressBookModule0aB0C9OrderTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)setOrderBy:",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC7orderByAA0aB0C9OrderTypeOvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule8CPSearchC7orderByAA0aB0C9OrderTypeOvM",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC7orderByAA0aB0C9OrderTypeOvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "limit",
+            "printedName": "limit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(py)limit",
+            "mangledName": "$s19CPAddressBookModule8CPSearchC5limitSivp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)limit",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC5limitSivg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)setLimit:",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC5limitSivs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule8CPSearchC5limitSivM",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC5limitSivM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "directoryId",
+            "printedName": "directoryId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(py)directoryId",
+            "mangledName": "$s19CPAddressBookModule8CPSearchC11directoryIdSSvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)directoryId",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC11directoryIdSSvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)setDirectoryId:",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC11directoryIdSSvs",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CPAddressBookModule8CPSearchC11directoryIdSSvM",
+                "mangledName": "$s19CPAddressBookModule8CPSearchC11directoryIdSSvM",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(filter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPSearch",
+                "printedName": "CPAddressBookModule.CPSearch",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPSearchFilter",
+                "printedName": "CPAddressBookModule.CPSearchFilter",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchFilter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch(im)initWithFilter:",
+            "mangledName": "$s19CPAddressBookModule8CPSearchC6filterAcA0D6FilterC_tcfc",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "initWithFilter:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch",
+        "mangledName": "$s19CPAddressBookModule8CPSearchC",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPAddressBookService",
+        "printedName": "CPAddressBookService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userInfo:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPAddressBookService",
+                "printedName": "CPAddressBookModule.CPAddressBookService",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPUserInfo",
+                "printedName": "CPUtilities.CPUserInfo",
+                "usr": "c:objc(cs)CPUserInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPServiceInfo",
+                "printedName": "CPUtilities.CPServiceInfo",
+                "usr": "c:@M@CPUtilities@objc(cs)CPServiceInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19CPAddressBookModule0aB7ServiceC8userInfo4infoACSo06CPUserF0C_11CPUtilities09CPServiceF0Ctcfc",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC8userInfo4infoACSo06CPUserF0C_11CPUtilities09CPServiceF0Ctcfc",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addContact",
+            "printedName": "addContact(addressBookId:contact:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPContact",
+                "printedName": "CPAddressBookModule.CPContact",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)addContactWithAddressBookId:contact:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC10addContact07addressB2Id7contact10completionySS_AA9CPContactCySo7CPErrorCSgctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "addContactWithAddressBookId:contact:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateContact",
+            "printedName": "updateContact(addressBookId:contact:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPContact",
+                "printedName": "CPAddressBookModule.CPContact",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)updateContactWithAddressBookId:contact:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC13updateContact07addressB2Id7contact10completionySS_AA9CPContactCySo7CPErrorCSgctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "updateContactWithAddressBookId:contact:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveContactList",
+            "printedName": "retrieveContactList(addressBookId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, [CPAddressBookModule.CPContact]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, [CPAddressBookModule.CPContact]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[CPAddressBookModule.CPContact]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[CPAddressBookModule.CPContact]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CPContact",
+                                "printedName": "CPAddressBookModule.CPContact",
+                                "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)retrieveContactListWithAddressBookId:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC19retrieveContactList07addressB2Id10completionySS_ySo7CPErrorCSg_SayAA9CPContactCGSgtctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "retrieveContactListWithAddressBookId:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getContact",
+            "printedName": "getContact(addressBookId:contactId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPContact) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPContact)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPContact",
+                        "printedName": "CPAddressBookModule.CPContact",
+                        "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)getContactWithAddressBookId:contactId:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC10getContact07addressB2Id07contactH010completionySS_SSySo7CPErrorCSg_AA9CPContactCtctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "getContactWithAddressBookId:contactId:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteContact",
+            "printedName": "deleteContact(addressBookId:identifier:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)deleteContactWithAddressBookId:identifier:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC13deleteContact07addressB2Id10identifier10completionySS_SSySo7CPErrorCSgctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "deleteContactWithAddressBookId:identifier:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateAttribute",
+            "printedName": "updateAttribute(addressBookId:contactIdentifier:attributeId:attributeVal:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)updateAttributeWithAddressBookId:contactIdentifier:attributeId:attributeVal:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC15updateAttribute07addressB2Id17contactIdentifier09attributeH00K3Val10completionySS_S3SySo7CPErrorCSgctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "updateAttributeWithAddressBookId:contactIdentifier:attributeId:attributeVal:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAttribute",
+            "printedName": "removeAttribute(addressBookId:contactIdentifier:attributeId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)removeAttributeWithAddressBookId:contactIdentifier:attributeId:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC15removeAttribute07addressB2Id17contactIdentifier09attributeH010completionySS_S2SySo7CPErrorCSgctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "removeAttributeWithAddressBookId:contactIdentifier:attributeId:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveAddressBookList",
+            "printedName": "retrieveAddressBookList(addressBookId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, [CPAddressBookModule.CPAddressBookList]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, [CPAddressBookModule.CPAddressBookList]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[CPAddressBookModule.CPAddressBookList]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[CPAddressBookModule.CPAddressBookList]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CPAddressBookList",
+                                "printedName": "CPAddressBookModule.CPAddressBookList",
+                                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)retrieveAddressBookListWithAddressBookId:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC015retrieveAddressB4List07addressB2Id10completionySS_ySo7CPErrorCSg_SayAA0abG0CGSgtctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "retrieveAddressBookListWithAddressBookId:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addAddressBookList",
+            "printedName": "addAddressBookList(addressBookId:addressbookList:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPAddressBookList",
+                "printedName": "CPAddressBookModule.CPAddressBookList",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPAddressBookList?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPAddressBookList?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPAddressBookModule.CPAddressBookList?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPAddressBookList",
+                            "printedName": "CPAddressBookModule.CPAddressBookList",
+                            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)addAddressBookListWithAddressBookId:addressbookList:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC010addAddressB4List07addressB2Id011addressbookG010completionySS_AA0abG0CySo7CPErrorCSg_AISgtctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "addAddressBookListWithAddressBookId:addressbookList:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateAddressBookList",
+            "printedName": "updateAddressBookList(addressBookId:oldListId:addressbookList:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPAddressBookList",
+                "printedName": "CPAddressBookModule.CPAddressBookList",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPAddressBookList?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPAddressBookList?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPAddressBookModule.CPAddressBookList?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPAddressBookList",
+                            "printedName": "CPAddressBookModule.CPAddressBookList",
+                            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)updateAddressBookListWithAddressBookId:oldListId:addressbookList:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC013updateAddressB4List07addressB2Id03oldgI0011addressbookG010completionySS_SSAA0abG0CySo7CPErrorCSg_AJSgtctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "updateAddressBookListWithAddressBookId:oldListId:addressbookList:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteAddressBookList",
+            "printedName": "deleteAddressBookList(addressBookId:listId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)deleteAddressBookListWithAddressBookId:listId:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC013deleteAddressB4List07addressB2Id04listI010completionySS_SSySo7CPErrorCSgctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "deleteAddressBookListWithAddressBookId:listId:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAddressBookList",
+            "printedName": "getAddressBookList(addressBookId:listId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPAddressBookList?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPAddressBookList?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPAddressBookModule.CPAddressBookList?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPAddressBookList",
+                            "printedName": "CPAddressBookModule.CPAddressBookList",
+                            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookList"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)getAddressBookListWithAddressBookId:listId:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC010getAddressB4List07addressB2Id04listI010completionySS_SSySo7CPErrorCSg_AA0abG0CSgtctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "getAddressBookListWithAddressBookId:listId:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "search",
+            "printedName": "search(with:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPSearch",
+                "printedName": "CPAddressBookModule.CPSearch",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearch"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPSearchResult?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPSearchResult?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPAddressBookModule.CPSearchResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPSearchResult",
+                            "printedName": "CPAddressBookModule.CPSearchResult",
+                            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)searchWith:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC6search4with10completionyAA8CPSearchC_ySo7CPErrorCSg_AA0H6ResultCSgtctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "searchWith:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceInfo",
+            "printedName": "serviceInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPServiceInfo",
+                "printedName": "CPUtilities.CPServiceInfo",
+                "usr": "c:@M@CPUtilities@objc(cs)CPServiceInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)serviceInfo",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC11serviceInfo11CPUtilities09CPServiceF0CyF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "serviceInfo",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(channelID:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, CPUtilities.CPError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)subscribeWithChannelID:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC9subscribe9channelID10completionySS_ySS_So7CPErrorCSgtctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "subscribeWithChannelID:completion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(channelID:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)unsubscribeWithChannelID:completion:",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC11unsubscribe9channelID10completionySS_ySo7CPErrorCSgctF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "unsubscribeWithChannelID:completion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notifications",
+            "printedName": "notifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)notifications",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceC13notificationsSaySSGyF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "notifications",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPAddressBookService",
+                "printedName": "CPAddressBookModule.CPAddressBookService",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService(im)init",
+            "mangledName": "$s19CPAddressBookModule0aB7ServiceCACycfc",
+            "moduleName": "CPAddressBookModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService",
+        "mangledName": "$s19CPAddressBookModule0aB7ServiceC",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CPServiceProtocol",
+            "printedName": "CPServiceProtocol",
+            "usr": "c:@M@CPUtilities@objc(pl)CPServiceProtocol",
+            "mangledName": "$s11CPUtilities17CPServiceProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPAddressBookModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPSearchResult",
+        "printedName": "CPSearchResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "contacts",
+            "printedName": "contacts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[CPAddressBookModule.CPContact]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CPAddressBookModule.CPContact]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPContact",
+                        "printedName": "CPAddressBookModule.CPContact",
+                        "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchResult(py)contacts",
+            "mangledName": "$s19CPAddressBookModule14CPSearchResultC8contactsSayAA9CPContactCGSgvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[CPAddressBookModule.CPContact]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[CPAddressBookModule.CPContact]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPContact",
+                            "printedName": "CPAddressBookModule.CPContact",
+                            "usr": "c:@M@CPAddressBookModule@objc(cs)CPContact"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchResult(im)contacts",
+                "mangledName": "$s19CPAddressBookModule14CPSearchResultC8contactsSayAA9CPContactCGSgvg",
+                "moduleName": "CPAddressBookModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasNext",
+            "printedName": "hasNext",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchResult(py)hasNext",
+            "mangledName": "$s19CPAddressBookModule14CPSearchResultC7hasNextSbvp",
+            "moduleName": "CPAddressBookModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchResult(im)hasNext",
+                "mangledName": "$s19CPAddressBookModule14CPSearchResultC7hasNextSbvg",
+                "moduleName": "CPAddressBookModule",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getNext",
+            "printedName": "getNext(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPSearchResult?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPAddressBookModule.CPSearchResult?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPAddressBookModule.CPSearchResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPSearchResult",
+                            "printedName": "CPAddressBookModule.CPSearchResult",
+                            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchResult(im)getNextWithCompletion:",
+            "mangledName": "$s19CPAddressBookModule14CPSearchResultC7getNext10completionyySo7CPErrorCSg_ACSgtc_tF",
+            "moduleName": "CPAddressBookModule",
+            "objc_name": "getNextWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPAddressBookModule@objc(cs)CPSearchResult",
+        "mangledName": "$s19CPAddressBookModule14CPSearchResultC",
+        "moduleName": "CPAddressBookModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 980,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 1094,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 1283,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 1483,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 1697,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 1816,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 1925,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "StringLiteral",
+      "offset": 2023,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPContact.swift",
+      "kind": "Array",
+      "offset": 2154,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookList.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 17,
+      "value": "\"CPAddressBookModule.CPAddressBookList\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1027,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1115,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1201,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1286,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2667,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2766,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 3399,
+      "length": 13,
+      "value": "\"addressbook\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 3438,
+      "length": 11,
+      "value": "\"directory\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 3399,
+      "length": 13,
+      "value": "\"addressbook\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/AddressBookEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 3438,
+      "length": 11,
+      "value": "\"directory\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPABRequestAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 30,
+      "value": "\"CPAddressBook.RequestAdapter\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPABRequestAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 7195,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPABRequestAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 18,
+      "value": "\"CPAddressBookModule.CPABRequestAdapter\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPSearch.swift",
+      "kind": "StringLiteral",
+      "offset": 1481,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 22,
+      "value": "\"CPAddressBookService\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "Array",
+      "offset": 773,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 3918,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 4970,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 5931,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 7008,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 8088,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 9406,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 10683,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 11717,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 12895,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 14239,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 15548,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 16758,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPAddressBookService.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 20,
+      "value": "\"CPAddressBookModule.CPAddressBookService\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPAddressBookModule\/CPAddressBookModule\/CPSearchResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1031,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

@@ -1,0 +1,4093 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "RestManager",
+        "printedName": "RestManager",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPPresentityListHandle",
+        "printedName": "CPPresentityListHandle",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityListHandle(im)isEqual:",
+            "mangledName": "$s16CPPresenceModule22CPPresentityListHandleC7isEqualySbypSgF",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentityListHandle",
+                "printedName": "CPPresenceModule.CPPresentityListHandle",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityListHandle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityListHandle(im)init",
+            "mangledName": "$s16CPPresenceModule22CPPresentityListHandleCACycfc",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityListHandle",
+        "mangledName": "$s16CPPresenceModule22CPPresentityListHandleC",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPPresentityList",
+        "printedName": "CPPresentityList",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(py)name",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC4nameSSSgvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)name",
+                "mangledName": "$s16CPPresenceModule16CPPresentityListC4nameSSSgvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "presentities",
+            "printedName": "presentities",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<CPPresenceModule.CPPresentity>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresentity",
+                    "printedName": "CPPresenceModule.CPPresentity",
+                    "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(py)presentities",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC12presentitiesShyAA0C0CGvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<CPPresenceModule.CPPresentity>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresentity",
+                        "printedName": "CPPresenceModule.CPPresentity",
+                        "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)presentities",
+                "mangledName": "$s16CPPresenceModule16CPPresentityListC12presentitiesShyAA0C0CGvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)isEqual:",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC7isEqualySbypSgF",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "populatePresentities",
+            "printedName": "populatePresentities(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16CPPresenceModule16CPPresentityListC20populatePresentities4jsonySDySSypG_tF",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC20populatePresentities4jsonySDySSypG_tF",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchStatus",
+            "printedName": "fetchStatus(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresentityList?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresentityList?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPPresenceModule.CPPresentityList?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPPresentityList",
+                            "printedName": "CPPresenceModule.CPPresentityList",
+                            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)fetchStatusWithCompletion:",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC11fetchStatus10completionyySo7CPErrorCSg_ACSgtc_tF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "fetchStatusWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchStatus",
+            "printedName": "fetchStatus(presentity:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentity",
+                "printedName": "CPPresenceModule.CPPresentity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresentityList?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresentityList?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPPresenceModule.CPPresentityList?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPPresentityList",
+                            "printedName": "CPPresenceModule.CPPresentityList",
+                            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)fetchStatusWithPresentity:completion:",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC11fetchStatus10presentity10completionyAA0C0C_ySo7CPErrorCSg_ACSgtctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "fetchStatusWithPresentity:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(presentity:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentity",
+                "printedName": "CPPresenceModule.CPPresentity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)addWithPresentity:completion:",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC3add10presentity10completionyAA0C0C_ySo7CPErrorCSgctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "addWithPresentity:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(presentity:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentity",
+                "printedName": "CPPresenceModule.CPPresentity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)removeWithPresentity:completion:",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC6remove10presentity10completionyAA0C0C_ySo7CPErrorCSgctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "removeWithPresentity:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)subscribeWithCompletion:",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC9subscribe10completionyySo7CPErrorCSgc_tF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "subscribeWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "statusChanged",
+            "printedName": "statusChanged(presentity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentity",
+                "printedName": "CPPresenceModule.CPPresentity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)statusChangedWithPresentity:",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListC13statusChanged10presentityyAA0C0C_tF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "statusChangedWithPresentity:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentityList",
+                "printedName": "CPPresenceModule.CPPresentityList",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList(im)init",
+            "mangledName": "$s16CPPresenceModule16CPPresentityListCACycfc",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList",
+        "mangledName": "$s16CPPresenceModule16CPPresentityListC",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPPresenceSource",
+        "printedName": "CPPresenceSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "activity",
+            "printedName": "activity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CPPresenceModule.PresenceActivity?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresenceActivity",
+                    "printedName": "CPPresenceModule.PresenceActivity",
+                    "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource(py)activity",
+            "mangledName": "$s16CPPresenceModule0A6SourceC8activityAA16PresenceActivityCSgvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPPresenceModule.PresenceActivity?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresenceActivity",
+                        "printedName": "CPPresenceModule.PresenceActivity",
+                        "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource(im)activity",
+                "mangledName": "$s16CPPresenceModule0A6SourceC8activityAA16PresenceActivityCSgvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource(py)duration",
+            "mangledName": "$s16CPPresenceModule0A6SourceC8durationSivp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource(im)duration",
+                "mangledName": "$s16CPPresenceModule0A6SourceC8durationSivg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateActivity",
+            "printedName": "updateActivity(activity:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresenceActivity",
+                "printedName": "CPPresenceModule.PresenceActivity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPPresenceModule.CPPresenceSource?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPPresenceSource",
+                            "printedName": "CPPresenceModule.CPPresenceSource",
+                            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource(im)updateActivityWithActivity:completion:",
+            "mangledName": "$s16CPPresenceModule0A6SourceC14updateActivity8activity10completionyAA08PresenceE0C_ySo7CPErrorCSg_ACSgtctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "updateActivityWithActivity:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresenceSource",
+                "printedName": "CPPresenceModule.CPPresenceSource",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource(im)init",
+            "mangledName": "$s16CPPresenceModule0A6SourceCACycfc",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource",
+        "mangledName": "$s16CPPresenceModule0A6SourceC",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPPresentity",
+        "printedName": "CPPresentity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity(py)userID",
+            "mangledName": "$s16CPPresenceModule12CPPresentityC6userIDSSSgvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity(im)userID",
+                "mangledName": "$s16CPPresenceModule12CPPresentityC6userIDSSSgvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activity",
+            "printedName": "activity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CPPresenceModule.PresenceActivity?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresenceActivity",
+                    "printedName": "CPPresenceModule.PresenceActivity",
+                    "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity(py)activity",
+            "mangledName": "$s16CPPresenceModule12CPPresentityC8activityAA16PresenceActivityCSgvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPPresenceModule.PresenceActivity?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresenceActivity",
+                        "printedName": "CPPresenceModule.PresenceActivity",
+                        "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity(im)activity",
+                "mangledName": "$s16CPPresenceModule12CPPresentityC8activityAA16PresenceActivityCSgvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentity",
+                "printedName": "CPPresenceModule.CPPresentity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity(im)initWithUserID:",
+            "mangledName": "$s16CPPresenceModule12CPPresentityC6userIDACSS_tcfc",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "initWithUserID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hash",
+            "printedName": "hash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity(py)hash",
+            "mangledName": "$s16CPPresenceModule12CPPresentityC4hashSivp",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "objc_name": "hash",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity(im)hash",
+                "mangledName": "$s16CPPresenceModule12CPPresentityC4hashSivg",
+                "moduleName": "CPPresenceModule",
+                "overriding": true,
+                "objc_name": "hash",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity(im)isEqual:",
+            "mangledName": "$s16CPPresenceModule12CPPresentityC7isEqualySbypSgF",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentity",
+                "printedName": "CPPresenceModule.CPPresentity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity(im)init",
+            "mangledName": "$s16CPPresenceModule12CPPresentityCACycfc",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity",
+        "mangledName": "$s16CPPresenceModule12CPPresentityC",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificationEngine",
+        "printedName": "NotificationEngine",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule"
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule"
+      },
+      {
+        "kind": "Import",
+        "name": "RestManager",
+        "printedName": "RestManager",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificationEngine",
+        "printedName": "NotificationEngine",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule"
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPPresenceService",
+        "printedName": "CPPresenceService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "restClient",
+            "printedName": "restClient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RestManager.CPRestClientBase?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPRestClientBase",
+                    "printedName": "RestManager.CPRestClientBase",
+                    "usr": "c:@M@RestManager@objc(cs)CPRestClientBase"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16CPPresenceModule0A7ServiceC10restClient11RestManager06CPRestE4BaseCSgvp",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC10restClient11RestManager06CPRestE4BaseCSgvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RestManager.CPRestClientBase?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPRestClientBase",
+                        "printedName": "RestManager.CPRestClientBase",
+                        "usr": "c:@M@RestManager@objc(cs)CPRestClientBase"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16CPPresenceModule0A7ServiceC10restClient11RestManager06CPRestE4BaseCSgvg",
+                "mangledName": "$s16CPPresenceModule0A7ServiceC10restClient11RestManager06CPRestE4BaseCSgvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RestManager.CPRestClientBase?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPRestClientBase",
+                        "printedName": "RestManager.CPRestClientBase",
+                        "usr": "c:@M@RestManager@objc(cs)CPRestClientBase"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16CPPresenceModule0A7ServiceC10restClient11RestManager06CPRestE4BaseCSgvs",
+                "mangledName": "$s16CPPresenceModule0A7ServiceC10restClient11RestManager06CPRestE4BaseCSgvs",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16CPPresenceModule0A7ServiceC10restClient11RestManager06CPRestE4BaseCSgvM",
+                "mangledName": "$s16CPPresenceModule0A7ServiceC10restClient11RestManager06CPRestE4BaseCSgvM",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CPPresenceModule.CPPresenceDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceDelegate",
+                    "printedName": "CPPresenceModule.CPPresenceDelegate",
+                    "usr": "c:@M@CPPresenceModule@objc(pl)CPPresenceDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(py)delegate",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC8delegateAA0A8Delegate_pSgvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPPresenceModule.CPPresenceDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceDelegate",
+                        "printedName": "CPPresenceModule.CPPresenceDelegate",
+                        "usr": "c:@M@CPPresenceModule@objc(pl)CPPresenceDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)delegate",
+                "mangledName": "$s16CPPresenceModule0A7ServiceC8delegateAA0A8Delegate_pSgvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPPresenceModule.CPPresenceDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceDelegate",
+                        "printedName": "CPPresenceModule.CPPresenceDelegate",
+                        "usr": "c:@M@CPPresenceModule@objc(pl)CPPresenceDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)setDelegate:",
+                "mangledName": "$s16CPPresenceModule0A7ServiceC8delegateAA0A8Delegate_pSgvs",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16CPPresenceModule0A7ServiceC8delegateAA0A8Delegate_pSgvM",
+                "mangledName": "$s16CPPresenceModule0A7ServiceC8delegateAA0A8Delegate_pSgvM",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subscriptionDuration",
+            "printedName": "subscriptionDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(py)subscriptionDuration",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC20subscriptionDurationSivp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)subscriptionDuration",
+                "mangledName": "$s16CPPresenceModule0A7ServiceC20subscriptionDurationSivg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)setSubscriptionDuration:",
+                "mangledName": "$s16CPPresenceModule0A7ServiceC20subscriptionDurationSivs",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16CPPresenceModule0A7ServiceC20subscriptionDurationSivM",
+                "mangledName": "$s16CPPresenceModule0A7ServiceC20subscriptionDurationSivM",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userInfo:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresenceService",
+                "printedName": "CPPresenceModule.CPPresenceService",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPUserInfo",
+                "printedName": "CPUtilities.CPUserInfo",
+                "usr": "c:objc(cs)CPUserInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPServiceInfo",
+                "printedName": "CPUtilities.CPServiceInfo",
+                "usr": "c:@M@CPUtilities@objc(cs)CPServiceInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16CPPresenceModule0A7ServiceC8userInfo4infoACSo06CPUserE0C_11CPUtilities09CPServiceE0Ctcfc",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC8userInfo4infoACSo06CPUserE0C_11CPUtilities09CPServiceE0Ctcfc",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceInfo",
+            "printedName": "serviceInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPServiceInfo",
+                "printedName": "CPUtilities.CPServiceInfo",
+                "usr": "c:@M@CPUtilities@objc(cs)CPServiceInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)serviceInfo",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC11serviceInfo11CPUtilities09CPServiceE0CyF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "serviceInfo",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notifications",
+            "printedName": "notifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)notifications",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC13notificationsSaySSGyF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "notifications",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(channelID:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, CPUtilities.CPError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)subscribeWithChannelID:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC9subscribe9channelID10completionySS_ySS_So7CPErrorCSgtctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "subscribeWithChannelID:completion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(channelID:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)unsubscribeWithChannelID:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC11unsubscribe9channelID10completionySS_ySo7CPErrorCSgctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "unsubscribeWithChannelID:completion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshSubscriptions",
+            "printedName": "refreshSubscriptions(expiringInSeconds:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)refreshSubscriptionsWithExpiringInSeconds:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC20refreshSubscriptions17expiringInSeconds10completionySd_ySo7CPErrorCSgctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "refreshSubscriptionsWithExpiringInSeconds:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPresenceSource",
+            "printedName": "createPresenceSource(activity:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresenceActivity",
+                "printedName": "CPPresenceModule.PresenceActivity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPPresenceModule.CPPresenceSource?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPPresenceSource",
+                            "printedName": "CPPresenceModule.CPPresenceSource",
+                            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)createPresenceSourceWithActivity:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC20createPresenceSource8activity10completionyAA0E8ActivityC_ySo7CPErrorCSg_AA0aF0CSgtctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "createPresenceSourceWithActivity:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updatePresenceSource",
+            "printedName": "updatePresenceSource(source:activity:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresenceSource",
+                "printedName": "CPPresenceModule.CPPresenceSource",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresenceActivity",
+                "printedName": "CPPresenceModule.PresenceActivity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPPresenceModule.CPPresenceSource?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPPresenceSource",
+                            "printedName": "CPPresenceModule.CPPresenceSource",
+                            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)updatePresenceSourceWithSource:activity:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC20updatePresenceSource6source8activity10completionyAA0aF0C_AA0E8ActivityCySo7CPErrorCSg_AISgtctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "updatePresenceSourceWithSource:activity:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchPresenceSource",
+            "printedName": "fetchPresenceSource(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPPresenceModule.CPPresenceSource?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPPresenceSource",
+                            "printedName": "CPPresenceModule.CPPresenceSource",
+                            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)fetchPresenceSourceWithCompletion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC19fetchPresenceSource10completionyySo7CPErrorCSg_AA0aF0CSgtc_tF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "fetchPresenceSourceWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchPresenceSource",
+            "printedName": "fetchPresenceSource(source:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresenceSource",
+                "printedName": "CPPresenceModule.CPPresenceSource",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresenceSource?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPPresenceModule.CPPresenceSource?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPPresenceSource",
+                            "printedName": "CPPresenceModule.CPPresenceSource",
+                            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)fetchPresenceSourceWithSource:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC19fetchPresenceSource6source10completionyAA0aF0C_ySo7CPErrorCSg_AHSgtctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "fetchPresenceSourceWithSource:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deletePresenceSource",
+            "printedName": "deletePresenceSource(source:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresenceSource",
+                "printedName": "CPPresenceModule.CPPresenceSource",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceSource"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)deletePresenceSourceWithSource:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC20deletePresenceSource6source10completionyAA0aF0C_ySo7CPErrorCSgctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "deletePresenceSourceWithSource:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPresentityList",
+            "printedName": "createPresentityList(name:presentities:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresentityList?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresentityList?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPPresenceModule.CPPresentityList?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPPresentityList",
+                            "printedName": "CPPresenceModule.CPPresentityList",
+                            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)createPresentityListWithName:presentities:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC20createPresentityList4name12presentities10completionySS_SaySSGySo7CPErrorCSg_AA012CPPresentityF0CSgtctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "createPresentityListWithName:presentities:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchAllPresentityLists",
+            "printedName": "fetchAllPresentityLists(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, [CPPresenceModule.CPPresentityList]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, [CPPresenceModule.CPPresentityList]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[CPPresenceModule.CPPresentityList]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[CPPresenceModule.CPPresentityList]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CPPresentityList",
+                                "printedName": "CPPresenceModule.CPPresentityList",
+                                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)fetchAllPresentityListsWithCompletion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC23fetchAllPresentityLists10completionyySo7CPErrorCSg_SayAA16CPPresentityListCGSgtc_tF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "fetchAllPresentityListsWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchPresentityList",
+            "printedName": "fetchPresentityList(presentityList:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentityList",
+                "printedName": "CPPresenceModule.CPPresentityList",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresentityList?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, CPPresenceModule.CPPresentityList?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPPresenceModule.CPPresentityList?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPPresentityList",
+                            "printedName": "CPPresenceModule.CPPresentityList",
+                            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)fetchPresentityListWithPresentityList:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC19fetchPresentityList010presentityF010completionyAA012CPPresentityF0C_ySo7CPErrorCSg_AHSgtctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "fetchPresentityListWithPresentityList:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deletePresentityList",
+            "printedName": "deletePresentityList(presentityList:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentityList",
+                "printedName": "CPPresenceModule.CPPresentityList",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)deletePresentityListWithPresentityList:completion:",
+            "mangledName": "$s16CPPresenceModule0A7ServiceC20deletePresentityList010presentityF010completionyAA012CPPresentityF0C_ySo7CPErrorCSgctF",
+            "moduleName": "CPPresenceModule",
+            "objc_name": "deletePresentityListWithPresentityList:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresenceService",
+                "printedName": "CPPresenceModule.CPPresenceService",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService(im)init",
+            "mangledName": "$s16CPPresenceModule0A7ServiceCACycfc",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService",
+        "mangledName": "$s16CPPresenceModule0A7ServiceC",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CPServiceProtocol",
+            "printedName": "CPServiceProtocol",
+            "usr": "c:@M@CPUtilities@objc(pl)CPServiceProtocol",
+            "mangledName": "$s11CPUtilities17CPServiceProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPPresenceActivities",
+        "printedName": "CPPresenceActivities",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ActivitiesUnknown",
+            "printedName": "ActivitiesUnknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPPresenceModule.CPPresenceActivities.Type) -> CPPresenceModule.CPPresenceActivities",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceActivities",
+                    "printedName": "CPPresenceModule.CPPresenceActivities",
+                    "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPPresenceModule.CPPresenceActivities.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceActivities",
+                        "printedName": "CPPresenceModule.CPPresenceActivities",
+                        "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities@CPPresenceActivitiesActivitiesUnknown",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO0C7UnknownyA2CmF",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "ActivitiesOther",
+            "printedName": "ActivitiesOther",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPPresenceModule.CPPresenceActivities.Type) -> CPPresenceModule.CPPresenceActivities",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceActivities",
+                    "printedName": "CPPresenceModule.CPPresenceActivities",
+                    "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPPresenceModule.CPPresenceActivities.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceActivities",
+                        "printedName": "CPPresenceModule.CPPresenceActivities",
+                        "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities@CPPresenceActivitiesActivitiesOther",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO0C5OtheryA2CmF",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "Available",
+            "printedName": "Available",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPPresenceModule.CPPresenceActivities.Type) -> CPPresenceModule.CPPresenceActivities",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceActivities",
+                    "printedName": "CPPresenceModule.CPPresenceActivities",
+                    "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPPresenceModule.CPPresenceActivities.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceActivities",
+                        "printedName": "CPPresenceModule.CPPresenceActivities",
+                        "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities@CPPresenceActivitiesAvailable",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO9AvailableyA2CmF",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "Away",
+            "printedName": "Away",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPPresenceModule.CPPresenceActivities.Type) -> CPPresenceModule.CPPresenceActivities",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceActivities",
+                    "printedName": "CPPresenceModule.CPPresenceActivities",
+                    "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPPresenceModule.CPPresenceActivities.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceActivities",
+                        "printedName": "CPPresenceModule.CPPresenceActivities",
+                        "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities@CPPresenceActivitiesAway",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO4AwayyA2CmF",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "Busy",
+            "printedName": "Busy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPPresenceModule.CPPresenceActivities.Type) -> CPPresenceModule.CPPresenceActivities",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceActivities",
+                    "printedName": "CPPresenceModule.CPPresenceActivities",
+                    "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPPresenceModule.CPPresenceActivities.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceActivities",
+                        "printedName": "CPPresenceModule.CPPresenceActivities",
+                        "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities@CPPresenceActivitiesBusy",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO4BusyyA2CmF",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "Lunch",
+            "printedName": "Lunch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPPresenceModule.CPPresenceActivities.Type) -> CPPresenceModule.CPPresenceActivities",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceActivities",
+                    "printedName": "CPPresenceModule.CPPresenceActivities",
+                    "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPPresenceModule.CPPresenceActivities.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceActivities",
+                        "printedName": "CPPresenceModule.CPPresenceActivities",
+                        "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities@CPPresenceActivitiesLunch",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO5LunchyA2CmF",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "OnThePhone",
+            "printedName": "OnThePhone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPPresenceModule.CPPresenceActivities.Type) -> CPPresenceModule.CPPresenceActivities",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceActivities",
+                    "printedName": "CPPresenceModule.CPPresenceActivities",
+                    "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPPresenceModule.CPPresenceActivities.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceActivities",
+                        "printedName": "CPPresenceModule.CPPresenceActivities",
+                        "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities@CPPresenceActivitiesOnThePhone",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO10OnThePhoneyA2CmF",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "Vacation",
+            "printedName": "Vacation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPPresenceModule.CPPresenceActivities.Type) -> CPPresenceModule.CPPresenceActivities",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceActivities",
+                    "printedName": "CPPresenceModule.CPPresenceActivities",
+                    "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CPPresenceModule.CPPresenceActivities.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceActivities",
+                        "printedName": "CPPresenceModule.CPPresenceActivities",
+                        "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities@CPPresenceActivitiesVacation",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO8VacationyA2CmF",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16CPPresenceModule0A10ActivitiesO8rawValueSSvp",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO8rawValueSSvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16CPPresenceModule0A10ActivitiesO8rawValueSSvg",
+                "mangledName": "$s16CPPresenceModule0A10ActivitiesO8rawValueSSvg",
+                "moduleName": "CPPresenceModule",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresenceActivities",
+                "printedName": "CPPresenceModule.CPPresenceActivities",
+                "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16CPPresenceModule0A10ActivitiesO8rawValueACSS_tcfc",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO8rawValueACSS_tcfc",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "superState",
+            "printedName": "superState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16CPPresenceModule0A10ActivitiesO10superStateSSvp",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO10superStateSSvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16CPPresenceModule0A10ActivitiesO10superStateSSvg",
+                "mangledName": "$s16CPPresenceModule0A10ActivitiesO10superStateSSvg",
+                "moduleName": "CPPresenceModule",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "willing",
+            "printedName": "willing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16CPPresenceModule0A10ActivitiesO7willingSbvp",
+            "mangledName": "$s16CPPresenceModule0A10ActivitiesO7willingSbvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16CPPresenceModule0A10ActivitiesO7willingSbvg",
+                "mangledName": "$s16CPPresenceModule0A10ActivitiesO7willingSbvg",
+                "moduleName": "CPPresenceModule",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities",
+        "mangledName": "$s16CPPresenceModule0A10ActivitiesO",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PresenceActivity",
+        "printedName": "PresenceActivity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresenceActivities",
+                "printedName": "CPPresenceModule.CPPresenceActivities",
+                "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(py)state",
+            "mangledName": "$s16CPPresenceModule16PresenceActivityC5stateAA0A10ActivitiesOvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceActivities",
+                    "printedName": "CPPresenceModule.CPPresenceActivities",
+                    "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(im)state",
+                "mangledName": "$s16CPPresenceModule16PresenceActivityC5stateAA0A10ActivitiesOvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(py)other",
+            "mangledName": "$s16CPPresenceModule16PresenceActivityC5otherSSSgvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(im)other",
+                "mangledName": "$s16CPPresenceModule16PresenceActivityC5otherSSSgvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "willing",
+            "printedName": "willing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(py)willing",
+            "mangledName": "$s16CPPresenceModule16PresenceActivityC7willingSbvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(im)willing",
+                "mangledName": "$s16CPPresenceModule16PresenceActivityC7willingSbvg",
+                "moduleName": "CPPresenceModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(py)string",
+            "mangledName": "$s16CPPresenceModule16PresenceActivityC6stringSSvp",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(im)string",
+                "mangledName": "$s16CPPresenceModule16PresenceActivityC6stringSSvg",
+                "moduleName": "CPPresenceModule",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PresenceActivity",
+                "printedName": "CPPresenceModule.PresenceActivity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresenceActivities",
+                "printedName": "CPPresenceModule.CPPresenceActivities",
+                "usr": "c:@M@CPPresenceModule@E@CPPresenceActivities"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(im)init:",
+            "mangledName": "$s16CPPresenceModule16PresenceActivityCyAcA0A10ActivitiesOcfc",
+            "moduleName": "CPPresenceModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeOther",
+            "printedName": "makeOther(activity:willing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PresenceActivity",
+                "printedName": "CPPresenceModule.PresenceActivity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(cm)makeOtherWithActivity:willing:",
+            "mangledName": "$s16CPPresenceModule16PresenceActivityC9makeOther8activity7willingACSS_SbtFZ",
+            "moduleName": "CPPresenceModule",
+            "static": true,
+            "objc_name": "makeOtherWithActivity:willing:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUnknown",
+            "printedName": "makeUnknown(willing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PresenceActivity",
+                "printedName": "CPPresenceModule.PresenceActivity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(cm)makeUnknownWithWilling:",
+            "mangledName": "$s16CPPresenceModule16PresenceActivityC11makeUnknown7willingACSb_tFZ",
+            "moduleName": "CPPresenceModule",
+            "static": true,
+            "objc_name": "makeUnknownWithWilling:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PresenceActivity",
+                "printedName": "CPPresenceModule.PresenceActivity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity(im)init",
+            "mangledName": "$s16CPPresenceModule16PresenceActivityCACycfc",
+            "moduleName": "CPPresenceModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPPresenceModule@objc(cs)PresenceActivity",
+        "mangledName": "$s16CPPresenceModule16PresenceActivityC",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CPPresenceModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPPresenceDelegate",
+        "printedName": "CPPresenceDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "listChanged",
+            "printedName": "listChanged(presentityList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentityList",
+                "printedName": "CPPresenceModule.CPPresentityList",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityList"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(pl)CPPresenceDelegate(im)listChangedWithPresentityList:",
+            "mangledName": "$s16CPPresenceModule0A8DelegateP11listChanged14presentityListyAA012CPPresentityG0C_tF",
+            "moduleName": "CPPresenceModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : CPPresenceModule.CPPresenceDelegate>",
+            "sugared_genericSig": "<Self where Self : CPPresenceModule.CPPresenceDelegate>",
+            "protocolReq": true,
+            "objc_name": "listChangedWithPresentityList:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscriptionExpired",
+            "printedName": "subscriptionExpired(presentityListHandle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentityListHandle",
+                "printedName": "CPPresenceModule.CPPresentityListHandle",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentityListHandle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(pl)CPPresenceDelegate(im)subscriptionExpiredWithPresentityListHandle:",
+            "mangledName": "$s16CPPresenceModule0A8DelegateP19subscriptionExpired20presentityListHandleyAA012CPPresentitygH0C_tF",
+            "moduleName": "CPPresenceModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : CPPresenceModule.CPPresenceDelegate>",
+            "sugared_genericSig": "<Self where Self : CPPresenceModule.CPPresenceDelegate>",
+            "protocolReq": true,
+            "objc_name": "subscriptionExpiredWithPresentityListHandle:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "statusChanged",
+            "printedName": "statusChanged(presentity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPPresentity",
+                "printedName": "CPPresenceModule.CPPresentity",
+                "usr": "c:@M@CPPresenceModule@objc(cs)CPPresentity"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPresenceModule@objc(pl)CPPresenceDelegate(im)statusChangedWithPresentity:",
+            "mangledName": "$s16CPPresenceModule0A8DelegateP13statusChanged10presentityyAA12CPPresentityC_tF",
+            "moduleName": "CPPresenceModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : CPPresenceModule.CPPresenceDelegate>",
+            "sugared_genericSig": "<Self where Self : CPPresenceModule.CPPresenceDelegate>",
+            "protocolReq": true,
+            "objc_name": "statusChangedWithPresentity:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@CPPresenceModule@objc(pl)CPPresenceDelegate",
+        "mangledName": "$s16CPPresenceModule0A8DelegateP",
+        "moduleName": "CPPresenceModule",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresentityList.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 22,
+      "value": "\"CPPresenceModule.CPPresentityListHandle\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresentityList.swift",
+      "kind": "Array",
+      "offset": 1590,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresentityList.swift",
+      "kind": "StringLiteral",
+      "offset": 1300,
+      "length": 16,
+      "value": "\"CPPresenceModule.CPPresentityList\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresenceSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 928,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresenceSource.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 16,
+      "value": "\"CPPresenceModule.CPPresenceSource\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresentity.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 12,
+      "value": "\"CPPresenceModule.CPPresentity\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresenceService.swift",
+      "kind": "Array",
+      "offset": 2807,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresenceService.swift",
+      "kind": "Dictionary",
+      "offset": 2888,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 2969,
+      "length": 17,
+      "value": "\"PresenceService\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresenceService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3411,
+      "length": 5,
+      "value": "86400"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/CPPresenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 2605,
+      "length": 17,
+      "value": "\"CPPresenceModule.CPPresenceService\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/PresenceActivity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 685,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/PresenceActivity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 763,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/PresenceActivity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 830,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/PresenceActivity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 892,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/PresenceActivity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 955,
+      "length": 5,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/PresenceActivity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1026,
+      "length": 10,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/PresenceActivity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1104,
+      "length": 8,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/PresenceActivity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3855,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPresenceModule\/CPPresenceModule\/PresenceActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 3448,
+      "length": 16,
+      "value": "\"CPPresenceModule.PresenceActivity\""
+    }
+  ]
+}

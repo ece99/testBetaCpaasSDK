@@ -1,0 +1,1782 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "RestManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPRestDownloadRequest",
+        "printedName": "CPRestDownloadRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(header:file:serviceUrl:progress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestDownloadRequest",
+                "printedName": "RestManager.CPRestDownloadRequest",
+                "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SMRestHeader",
+                "printedName": "RestManager.SMRestHeader",
+                "usr": "c:objc(cs)SMRestHeader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RestManager21CPRestDownloadRequestC6header4file10serviceUrl8progressACSo12SMRestHeaderC_10Foundation3URLVSSySi_Sitctcfc",
+            "mangledName": "$s11RestManager21CPRestDownloadRequestC6header4file10serviceUrl8progressACSo12SMRestHeaderC_10Foundation3URLVSSySi_Sitctcfc",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(header:file:serviceUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestDownloadRequest",
+                "printedName": "RestManager.CPRestDownloadRequest",
+                "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SMRestHeader",
+                "printedName": "RestManager.SMRestHeader",
+                "usr": "c:objc(cs)SMRestHeader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RestManager21CPRestDownloadRequestC6header4file10serviceUrlACSo12SMRestHeaderC_10Foundation3URLVSStcfc",
+            "mangledName": "$s11RestManager21CPRestDownloadRequestC6header4file10serviceUrlACSo12SMRestHeaderC_10Foundation3URLVSStcfc",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "messageHeader",
+            "printedName": "messageHeader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SMRestHeader",
+                "printedName": "RestManager.SMRestHeader",
+                "usr": "c:objc(cs)SMRestHeader"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(py)messageHeader",
+            "mangledName": "$s11RestManager21CPRestDownloadRequestC13messageHeaderSo06SMRestG0Cvp",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "messageHeader",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMRestHeader",
+                    "printedName": "RestManager.SMRestHeader",
+                    "usr": "c:objc(cs)SMRestHeader"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(im)messageHeader",
+                "mangledName": "$s11RestManager21CPRestDownloadRequestC13messageHeaderSo06SMRestG0Cvg",
+                "moduleName": "RestManager",
+                "overriding": true,
+                "objc_name": "messageHeader",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceUrl",
+            "printedName": "serviceUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(py)serviceUrl",
+            "mangledName": "$s11RestManager21CPRestDownloadRequestC10serviceUrlSSvp",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "serviceUrl",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(im)serviceUrl",
+                "mangledName": "$s11RestManager21CPRestDownloadRequestC10serviceUrlSSvg",
+                "moduleName": "RestManager",
+                "overriding": true,
+                "objc_name": "serviceUrl",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlRequest",
+            "printedName": "urlRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(py)urlRequest",
+            "mangledName": "$s11RestManager21CPRestDownloadRequestC03urlE010Foundation10URLRequestVvp",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "urlRequest",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLRequest",
+                    "printedName": "Foundation.URLRequest",
+                    "usr": "s:10Foundation10URLRequestV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(im)urlRequest",
+                "mangledName": "$s11RestManager21CPRestDownloadRequestC03urlE010Foundation10URLRequestVvg",
+                "moduleName": "RestManager",
+                "overriding": true,
+                "objc_name": "urlRequest",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "completion",
+            "printedName": "completion(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(im)completion:error:",
+            "mangledName": "$s11RestManager21CPRestDownloadRequestC10completion_5errorySo8NSObjectCSg_s5Error_pSgtF",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "completion:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTaskFor",
+            "printedName": "getTaskFor(_:withResponseHander:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URLSessionTask?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionTask",
+                    "printedName": "Foundation.URLSessionTask",
+                    "usr": "c:objc(cs)NSURLSessionTask"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URLSession?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSession",
+                    "printedName": "Foundation.URLSession",
+                    "usr": "c:objc(cs)NSURLSession"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "RestManager.CPRestResponseHandler?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPRestResponseHandler",
+                    "printedName": "RestManager.CPRestResponseHandler",
+                    "usr": "c:objc(cs)CPRestResponseHandler"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(im)getTaskForSession:withResponseHander:",
+            "mangledName": "$s11RestManager21CPRestDownloadRequestC10getTaskFor_18withResponseHanderSo012NSURLSessionG0CSgSo0L0CSg_So0cJ7HandlerCSgtF",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "getTaskForSession:withResponseHander:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleProgress",
+            "printedName": "handleProgress(_:ofTotal:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(im)handleProgress:ofTotal:",
+            "mangledName": "$s11RestManager21CPRestDownloadRequestC14handleProgress_7ofTotalySi_SitF",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "handleProgress:ofTotal:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestDownloadRequest",
+                "printedName": "RestManager.CPRestDownloadRequest",
+                "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest(im)init",
+            "mangledName": "$s11RestManager21CPRestDownloadRequestCACycfc",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RestManager@objc(cs)CPRestDownloadRequest",
+        "mangledName": "$s11RestManager21CPRestDownloadRequestC",
+        "moduleName": "RestManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)CPRestRequest",
+        "superclassNames": [
+          "RestManager.CPRestRequest",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "RestManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "RestManager"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPRestUploadRequest",
+        "printedName": "CPRestUploadRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "encodeInMemoryThreshold",
+            "printedName": "encodeInMemoryThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RestManager19CPRestUploadRequestC23encodeInMemoryThresholdSivp",
+            "mangledName": "$s11RestManager19CPRestUploadRequestC23encodeInMemoryThresholdSivp",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RestManager19CPRestUploadRequestC23encodeInMemoryThresholdSivg",
+                "mangledName": "$s11RestManager19CPRestUploadRequestC23encodeInMemoryThresholdSivg",
+                "moduleName": "RestManager",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RestManager19CPRestUploadRequestC23encodeInMemoryThresholdSivs",
+                "mangledName": "$s11RestManager19CPRestUploadRequestC23encodeInMemoryThresholdSivs",
+                "moduleName": "RestManager",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RestManager19CPRestUploadRequestC23encodeInMemoryThresholdSivM",
+                "mangledName": "$s11RestManager19CPRestUploadRequestC23encodeInMemoryThresholdSivM",
+                "moduleName": "RestManager",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(header:file:serviceUrl:progress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestUploadRequest",
+                "printedName": "RestManager.CPRestUploadRequest",
+                "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SMRestHeader",
+                "printedName": "RestManager.SMRestHeader",
+                "usr": "c:objc(cs)SMRestHeader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RestManager19CPRestUploadRequestC6header4file10serviceUrl8progressACSo12SMRestHeaderC_10Foundation3URLVSSySi_Sitctcfc",
+            "mangledName": "$s11RestManager19CPRestUploadRequestC6header4file10serviceUrl8progressACSo12SMRestHeaderC_10Foundation3URLVSSySi_Sitctcfc",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(header:file:serviceUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestUploadRequest",
+                "printedName": "RestManager.CPRestUploadRequest",
+                "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SMRestHeader",
+                "printedName": "RestManager.SMRestHeader",
+                "usr": "c:objc(cs)SMRestHeader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RestManager19CPRestUploadRequestC6header4file10serviceUrlACSo12SMRestHeaderC_10Foundation3URLVSStcfc",
+            "mangledName": "$s11RestManager19CPRestUploadRequestC6header4file10serviceUrlACSo12SMRestHeaderC_10Foundation3URLVSStcfc",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "httpMethodType",
+            "printedName": "httpMethodType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest(py)HTTPMethodType",
+            "mangledName": "$s11RestManager19CPRestUploadRequestC14httpMethodTypeSSvp",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "HTTPMethodType",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest(im)HTTPMethodType",
+                "mangledName": "$s11RestManager19CPRestUploadRequestC14httpMethodTypeSSvg",
+                "moduleName": "RestManager",
+                "overriding": true,
+                "objc_name": "HTTPMethodType",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlRequest",
+            "printedName": "urlRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest(py)urlRequest",
+            "mangledName": "$s11RestManager19CPRestUploadRequestC03urlE010Foundation10URLRequestVvp",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "urlRequest",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLRequest",
+                    "printedName": "Foundation.URLRequest",
+                    "usr": "s:10Foundation10URLRequestV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest(im)urlRequest",
+                "mangledName": "$s11RestManager19CPRestUploadRequestC03urlE010Foundation10URLRequestVvg",
+                "moduleName": "RestManager",
+                "overriding": true,
+                "objc_name": "urlRequest",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getTaskFor",
+            "printedName": "getTaskFor(_:withResponseHander:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URLSessionTask?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionTask",
+                    "printedName": "Foundation.URLSessionTask",
+                    "usr": "c:objc(cs)NSURLSessionTask"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URLSession?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSession",
+                    "printedName": "Foundation.URLSession",
+                    "usr": "c:objc(cs)NSURLSession"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "RestManager.CPRestResponseHandler?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPRestResponseHandler",
+                    "printedName": "RestManager.CPRestResponseHandler",
+                    "usr": "c:objc(cs)CPRestResponseHandler"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest(im)getTaskForSession:withResponseHander:",
+            "mangledName": "$s11RestManager19CPRestUploadRequestC10getTaskFor_18withResponseHanderSo012NSURLSessionG0CSgSo0L0CSg_So0cJ7HandlerCSgtF",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "getTaskForSession:withResponseHander:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleProgress",
+            "printedName": "handleProgress(_:ofTotal:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest(im)handleProgress:ofTotal:",
+            "mangledName": "$s11RestManager19CPRestUploadRequestC14handleProgress_7ofTotalySi_SitF",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "handleProgress:ofTotal:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:andMessageBody:andServiceUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RestManager.CPRestUploadRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPRestUploadRequest",
+                    "printedName": "RestManager.CPRestUploadRequest",
+                    "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "RestManager.SMRestHeader?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMRestHeader",
+                    "printedName": "RestManager.SMRestHeader",
+                    "usr": "c:objc(cs)SMRestHeader"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "RestManager.CPRestBody?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPRestBody",
+                    "printedName": "RestManager.CPRestBody",
+                    "usr": "c:objc(cs)CPRestBody"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest(im)init:andMessageBody:andServiceUrl:",
+            "mangledName": "$s11RestManager19CPRestUploadRequestC_14andMessageBody0F10ServiceUrlACSgSo12SMRestHeaderCSg_So0cH0CSgSSSgtcfc",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init:andMessageBody:andServiceUrl:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:andServiceUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RestManager.CPRestUploadRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPRestUploadRequest",
+                    "printedName": "RestManager.CPRestUploadRequest",
+                    "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "RestManager.CPRestBody?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPRestBody",
+                    "printedName": "RestManager.CPRestBody",
+                    "usr": "c:objc(cs)CPRestBody"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest(im)init:andServiceUrl:",
+            "mangledName": "$s11RestManager19CPRestUploadRequestC_13andServiceUrlACSgSo0C4BodyCSg_SSSgtcfc",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init:andServiceUrl:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestUploadRequest",
+                "printedName": "RestManager.CPRestUploadRequest",
+                "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest(im)init",
+            "mangledName": "$s11RestManager19CPRestUploadRequestCACycfc",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RestManager@objc(cs)CPRestUploadRequest",
+        "mangledName": "$s11RestManager19CPRestUploadRequestC",
+        "moduleName": "RestManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)CPRestPutRequest",
+        "superclassNames": [
+          "RestManager.CPRestPutRequest",
+          "RestManager.CPRestRequest",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "RestManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPRestClientBase",
+        "printedName": "CPRestClientBase",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userInfo",
+            "printedName": "userInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CPUtilities.CPUserInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPUserInfo",
+                    "printedName": "CPUtilities.CPUserInfo",
+                    "usr": "c:objc(cs)CPUserInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RestManager@objc(cs)CPRestClientBase(py)userInfo",
+            "mangledName": "$s11RestManager16CPRestClientBaseC8userInfoSo06CPUserG0CSgvp",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPUtilities.CPUserInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPUserInfo",
+                        "printedName": "CPUtilities.CPUserInfo",
+                        "usr": "c:objc(cs)CPUserInfo"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RestManager@objc(cs)CPRestClientBase(im)userInfo",
+                "mangledName": "$s11RestManager16CPRestClientBaseC8userInfoSo06CPUserG0CSgvg",
+                "moduleName": "RestManager",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPUtilities.CPUserInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPUserInfo",
+                        "printedName": "CPUtilities.CPUserInfo",
+                        "usr": "c:objc(cs)CPUserInfo"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RestManager@objc(cs)CPRestClientBase(im)setUserInfo:",
+                "mangledName": "$s11RestManager16CPRestClientBaseC8userInfoSo06CPUserG0CSgvs",
+                "moduleName": "RestManager",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RestManager16CPRestClientBaseC8userInfoSo06CPUserG0CSgvM",
+                "mangledName": "$s11RestManager16CPRestClientBaseC8userInfoSo06CPUserG0CSgvM",
+                "moduleName": "RestManager",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceApi",
+            "printedName": "serviceApi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RestManager16CPRestClientBaseC10serviceApiSSvp",
+            "mangledName": "$s11RestManager16CPRestClientBaseC10serviceApiSSvp",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RestManager16CPRestClientBaseC10serviceApiSSvg",
+                "mangledName": "$s11RestManager16CPRestClientBaseC10serviceApiSSvg",
+                "moduleName": "RestManager",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestClientBase",
+                "printedName": "RestManager.CPRestClientBase",
+                "usr": "c:@M@RestManager@objc(cs)CPRestClientBase"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RestManager@objc(cs)CPRestClientBase(im)init",
+            "mangledName": "$s11RestManager16CPRestClientBaseCACycfc",
+            "moduleName": "RestManager",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestClientBase",
+                "printedName": "RestManager.CPRestClientBase",
+                "usr": "c:@M@RestManager@objc(cs)CPRestClientBase"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPUserInfo",
+                "printedName": "CPUtilities.CPUserInfo",
+                "usr": "c:objc(cs)CPUserInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RestManager16CPRestClientBaseCyACSo10CPUserInfoC_SStcfc",
+            "mangledName": "$s11RestManager16CPRestClientBaseCyACSo10CPUserInfoC_SStcfc",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceUrl",
+            "printedName": "serviceUrl(path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RestManager16CPRestClientBaseC10serviceUrl4pathS2S_tF",
+            "mangledName": "$s11RestManager16CPRestClientBaseC10serviceUrl4pathS2S_tF",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resourceUrl",
+            "printedName": "resourceUrl(path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RestManager16CPRestClientBaseC11resourceUrl4pathS2S_tF",
+            "mangledName": "$s11RestManager16CPRestClientBaseC11resourceUrl4pathS2S_tF",
+            "moduleName": "RestManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchFromServer",
+            "printedName": "fetchFromServer(tag:url:responseBodyName:parameters:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestRequestHttpParameters",
+                "printedName": "RestManager.CPRestRequestHttpParameters",
+                "usr": "c:objc(cs)CPRestRequestHttpParameters"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, [Swift.AnyHashable : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, [Swift.AnyHashable : Any]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.AnyHashable : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RestManager16CPRestClientBaseC15fetchFromServer3tag3url16responseBodyName10parameters10completionySS_S2SSo0C21RequestHttpParametersCySo7CPErrorCSg_SDys11AnyHashableVypGSgtctF",
+            "mangledName": "$s11RestManager16CPRestClientBaseC15fetchFromServer3tag3url16responseBodyName10parameters10completionySS_S2SSo0C21RequestHttpParametersCySo7CPErrorCSg_SDys11AnyHashableVypGSgtctF",
+            "moduleName": "RestManager",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteFromServer",
+            "printedName": "deleteFromServer(tag:url:parameters:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPRestRequestHttpParameters",
+                "printedName": "RestManager.CPRestRequestHttpParameters",
+                "usr": "c:objc(cs)CPRestRequestHttpParameters"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RestManager16CPRestClientBaseC16deleteFromServer3tag3url10parameters10completionySS_SSSo0C21RequestHttpParametersCySo7CPErrorCSgctF",
+            "mangledName": "$s11RestManager16CPRestClientBaseC16deleteFromServer3tag3url10parameters10completionySS_SSSo0C21RequestHttpParametersCySo7CPErrorCSgctF",
+            "moduleName": "RestManager",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RestManager@objc(cs)CPRestClientBase",
+        "mangledName": "$s11RestManager16CPRestClientBaseC",
+        "moduleName": "RestManager",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Core\/RestManager\/RestManager\/CPRestDownloadRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 21,
+      "value": "\"RestManager.CPRestDownloadRequest\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Core\/RestManager\/RestManager\/CPRestUploadRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 6,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Core\/RestManager\/RestManager\/CPRestUploadRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 762,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Core\/RestManager\/RestManager\/CPRestUploadRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 767,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Core\/RestManager\/RestManager\/CPRestUploadRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Core\/RestManager\/RestManager\/CPRestUploadRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 19,
+      "value": "\"RestManager.CPRestUploadRequest\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Core\/RestManager\/RestManager\/CPRestUploadRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 19,
+      "value": "\"RestManager.CPRestUploadRequest\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Core\/RestManager\/RestManager\/CPRestUploadRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 19,
+      "value": "\"RestManager.CPRestUploadRequest\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Core\/RestManager\/RestManager\/CPRestClientBase.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 16,
+      "value": "\"RestClientBase\""
+    }
+  ]
+}

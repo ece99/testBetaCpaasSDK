@@ -1,0 +1,732 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CPAuthenticationModule",
+        "printedName": "CPAuthenticationModule",
+        "declKind": "Import",
+        "moduleName": "CPaaSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CPPushModule",
+        "printedName": "CPPushModule",
+        "declKind": "Import",
+        "moduleName": "CPaaSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CPCallModule",
+        "printedName": "CPCallModule",
+        "declKind": "Import",
+        "moduleName": "CPaaSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CPMessagingModule",
+        "printedName": "CPMessagingModule",
+        "declKind": "Import",
+        "moduleName": "CPaaSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CPPresenceModule",
+        "printedName": "CPPresenceModule",
+        "declKind": "Import",
+        "moduleName": "CPaaSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CPAddressBookModule",
+        "printedName": "CPAddressBookModule",
+        "declKind": "Import",
+        "moduleName": "CPaaSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities",
+        "printedName": "CPUtilities",
+        "declKind": "Import",
+        "moduleName": "CPaaSSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPaaS",
+        "printedName": "CPaaS",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(py)version",
+            "mangledName": "$s8CPaaSSDK0A1SC7versionSSvp",
+            "moduleName": "CPaaSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(im)version",
+                "mangledName": "$s8CPaaSSDK0A1SC7versionSSvg",
+                "moduleName": "CPaaSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authenticationService",
+            "printedName": "authenticationService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CPAuthenticationModule.CPAuthenticationService?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPAuthenticationService",
+                    "printedName": "CPAuthenticationModule.CPAuthenticationService",
+                    "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(py)authenticationService",
+            "mangledName": "$s8CPaaSSDK0A1SC21authenticationService22CPAuthenticationModule0eD0CSgvp",
+            "moduleName": "CPaaSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPAuthenticationModule.CPAuthenticationService?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPAuthenticationService",
+                        "printedName": "CPAuthenticationModule.CPAuthenticationService",
+                        "usr": "c:@M@CPAuthenticationModule@objc(cs)CPAuthenticationService"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(im)authenticationService",
+                "mangledName": "$s8CPaaSSDK0A1SC21authenticationService22CPAuthenticationModule0eD0CSgvg",
+                "moduleName": "CPaaSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pushService",
+            "printedName": "pushService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CPPushModule.CPPushService?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPushService",
+                    "printedName": "CPPushModule.CPPushService",
+                    "usr": "c:@M@CPPushModule@objc(cs)CPPushService"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(py)pushService",
+            "mangledName": "$s8CPaaSSDK0A1SC11pushService12CPPushModule0eD0CSgvp",
+            "moduleName": "CPaaSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPPushModule.CPPushService?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPushService",
+                        "printedName": "CPPushModule.CPPushService",
+                        "usr": "c:@M@CPPushModule@objc(cs)CPPushService"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(im)pushService",
+                "mangledName": "$s8CPaaSSDK0A1SC11pushService12CPPushModule0eD0CSgvg",
+                "moduleName": "CPaaSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callService",
+            "printedName": "callService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CPCallModule.CPCallService?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPCallService",
+                    "printedName": "CPCallModule.CPCallService",
+                    "usr": "c:objc(cs)CPCallService"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(py)callService",
+            "mangledName": "$s8CPaaSSDK0A1SC11callServiceSo06CPCallD0CSgvp",
+            "moduleName": "CPaaSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPCallModule.CPCallService?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPCallService",
+                        "printedName": "CPCallModule.CPCallService",
+                        "usr": "c:objc(cs)CPCallService"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(im)callService",
+                "mangledName": "$s8CPaaSSDK0A1SC11callServiceSo06CPCallD0CSgvg",
+                "moduleName": "CPaaSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "smsService",
+            "printedName": "smsService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CPMessagingModule.CPSmsService?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPSmsService",
+                    "printedName": "CPMessagingModule.CPSmsService",
+                    "usr": "c:@M@CPMessagingModule@objc(cs)CPSmsService"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(py)smsService",
+            "mangledName": "$s8CPaaSSDK0A1SC10smsService17CPMessagingModule05CPSmsD0CSgvp",
+            "moduleName": "CPaaSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPMessagingModule.CPSmsService?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPSmsService",
+                        "printedName": "CPMessagingModule.CPSmsService",
+                        "usr": "c:@M@CPMessagingModule@objc(cs)CPSmsService"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(im)smsService",
+                "mangledName": "$s8CPaaSSDK0A1SC10smsService17CPMessagingModule05CPSmsD0CSgvg",
+                "moduleName": "CPaaSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chatService",
+            "printedName": "chatService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CPMessagingModule.CPChatService?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPChatService",
+                    "printedName": "CPMessagingModule.CPChatService",
+                    "usr": "c:@M@CPMessagingModule@objc(cs)CPChatService"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(py)chatService",
+            "mangledName": "$s8CPaaSSDK0A1SC11chatService17CPMessagingModule06CPChatD0CSgvp",
+            "moduleName": "CPaaSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPMessagingModule.CPChatService?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPChatService",
+                        "printedName": "CPMessagingModule.CPChatService",
+                        "usr": "c:@M@CPMessagingModule@objc(cs)CPChatService"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(im)chatService",
+                "mangledName": "$s8CPaaSSDK0A1SC11chatService17CPMessagingModule06CPChatD0CSgvg",
+                "moduleName": "CPaaSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "presenceService",
+            "printedName": "presenceService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CPPresenceModule.CPPresenceService?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPPresenceService",
+                    "printedName": "CPPresenceModule.CPPresenceService",
+                    "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(py)presenceService",
+            "mangledName": "$s8CPaaSSDK0A1SC15presenceService16CPPresenceModule0eD0CSgvp",
+            "moduleName": "CPaaSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPPresenceModule.CPPresenceService?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPPresenceService",
+                        "printedName": "CPPresenceModule.CPPresenceService",
+                        "usr": "c:@M@CPPresenceModule@objc(cs)CPPresenceService"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(im)presenceService",
+                "mangledName": "$s8CPaaSSDK0A1SC15presenceService16CPPresenceModule0eD0CSgvg",
+                "moduleName": "CPaaSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "addressBookService",
+            "printedName": "addressBookService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CPAddressBookModule.CPAddressBookService?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPAddressBookService",
+                    "printedName": "CPAddressBookModule.CPAddressBookService",
+                    "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(py)addressBookService",
+            "mangledName": "$s8CPaaSSDK0A1SC18addressBookService09CPAddressD6Module0fdE0CSgvp",
+            "moduleName": "CPaaSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPAddressBookModule.CPAddressBookService?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPAddressBookService",
+                        "printedName": "CPAddressBookModule.CPAddressBookService",
+                        "usr": "c:@M@CPAddressBookModule@objc(cs)CPAddressBookService"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(im)addressBookService",
+                "mangledName": "$s8CPaaSSDK0A1SC18addressBookService09CPAddressD6Module0fdE0CSgvg",
+                "moduleName": "CPaaSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPaaS",
+                "printedName": "CPaaSSDK.CPaaS",
+                "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS(im)init",
+            "mangledName": "$s8CPaaSSDK0A1SCACycfc",
+            "moduleName": "CPaaSSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(services:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CPaaSSDK.CPaaS?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPaaS",
+                    "printedName": "CPaaSSDK.CPaaS",
+                    "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CPUtilities.CPServiceInfo]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPServiceInfo",
+                    "printedName": "CPUtilities.CPServiceInfo",
+                    "usr": "c:@M@CPUtilities@objc(cs)CPServiceInfo"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@CM@CPaaSSDK@objc(cs)CPaaS(im)initWithServices:",
+            "mangledName": "$s8CPaaSSDK0A1SC8servicesACSgSay11CPUtilities13CPServiceInfoCG_tcfc",
+            "moduleName": "CPaaSSDK",
+            "objc_name": "initWithServices:",
+            "declAttributes": [
+              "Dynamic",
+              "Convenience",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPaaSSDK@objc(cs)CPaaS",
+        "mangledName": "$s8CPaaSSDK0A1SC",
+        "moduleName": "CPaaSSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/CPaaSSDK\/CPaaS.swift",
+      "kind": "StringLiteral",
+      "offset": 2169,
+      "length": 7,
+      "value": "\"CPaaS\""
+    }
+  ]
+}

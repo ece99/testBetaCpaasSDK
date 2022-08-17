@@ -1,0 +1,1157 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "NotificationEngine",
+        "printedName": "NotificationEngine",
+        "declKind": "Import",
+        "moduleName": "CPPushModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPPushModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPCKInfo",
+        "printedName": "CPCKInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "callerDisplayInfo",
+            "printedName": "callerDisplayInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(py)callerDisplayInfo",
+            "mangledName": "$s12CPPushModule8CPCKInfoC17callerDisplayInfoSSSgvp",
+            "moduleName": "CPPushModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(im)callerDisplayInfo",
+                "mangledName": "$s12CPPushModule8CPCKInfoC17callerDisplayInfoSSSgvg",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(im)setCallerDisplayInfo:",
+                "mangledName": "$s12CPPushModule8CPCKInfoC17callerDisplayInfoSSSgvs",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CPPushModule8CPCKInfoC17callerDisplayInfoSSSgvM",
+                "mangledName": "$s12CPPushModule8CPCKInfoC17callerDisplayInfoSSSgvM",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callUUID",
+            "printedName": "callUUID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(py)callUUID",
+            "mangledName": "$s12CPPushModule8CPCKInfoC8callUUID10Foundation0E0VSgvp",
+            "moduleName": "CPPushModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(im)callUUID",
+                "mangledName": "$s12CPPushModule8CPCKInfoC8callUUID10Foundation0E0VSgvg",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UUID?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(im)setCallUUID:",
+                "mangledName": "$s12CPPushModule8CPCKInfoC8callUUID10Foundation0E0VSgvs",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CPPushModule8CPCKInfoC8callUUID10Foundation0E0VSgvM",
+                "mangledName": "$s12CPPushModule8CPCKInfoC8callUUID10Foundation0E0VSgvM",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CPUtilities.CPError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPError",
+                    "printedName": "CPUtilities.CPError",
+                    "usr": "c:objc(cs)CPError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(py)error",
+            "mangledName": "$s12CPPushModule8CPCKInfoC5errorSo7CPErrorCSgvp",
+            "moduleName": "CPPushModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(im)error",
+                "mangledName": "$s12CPPushModule8CPCKInfoC5errorSo7CPErrorCSgvg",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(im)setError:",
+                "mangledName": "$s12CPPushModule8CPCKInfoC5errorSo7CPErrorCSgvs",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CPPushModule8CPCKInfoC5errorSo7CPErrorCSgvM",
+                "mangledName": "$s12CPPushModule8CPCKInfoC5errorSo7CPErrorCSgvM",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPCKInfo",
+                "printedName": "CPPushModule.CPCKInfo",
+                "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo(im)init",
+            "mangledName": "$s12CPPushModule8CPCKInfoCACycfc",
+            "moduleName": "CPPushModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo",
+        "mangledName": "$s12CPPushModule8CPCKInfoC",
+        "moduleName": "CPPushModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RestManager",
+        "printedName": "RestManager",
+        "declKind": "Import",
+        "moduleName": "CPPushModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificationEngine",
+        "printedName": "NotificationEngine",
+        "declKind": "Import",
+        "moduleName": "CPPushModule"
+      },
+      {
+        "kind": "Import",
+        "name": "CPUtilities.Private",
+        "printedName": "CPUtilities.Private",
+        "declKind": "Import",
+        "moduleName": "CPPushModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPPushService",
+        "printedName": "CPPushService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userInfo",
+            "printedName": "userInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CPUtilities.CPUserInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPUserInfo",
+                    "printedName": "CPUtilities.CPUserInfo",
+                    "usr": "c:objc(cs)CPUserInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CPPushModule@objc(cs)CPPushService(py)userInfo",
+            "mangledName": "$s12CPPushModule0A7ServiceC8userInfoSo06CPUserE0CSgvp",
+            "moduleName": "CPPushModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPUtilities.CPUserInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPUserInfo",
+                        "printedName": "CPUtilities.CPUserInfo",
+                        "usr": "c:objc(cs)CPUserInfo"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPushModule@objc(cs)CPPushService(im)userInfo",
+                "mangledName": "$s12CPPushModule0A7ServiceC8userInfoSo06CPUserE0CSgvg",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CPUtilities.CPUserInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPUserInfo",
+                        "printedName": "CPUtilities.CPUserInfo",
+                        "usr": "c:objc(cs)CPUserInfo"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CPPushModule@objc(cs)CPPushService(im)setUserInfo:",
+                "mangledName": "$s12CPPushModule0A7ServiceC8userInfoSo06CPUserE0CSgvs",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CPPushModule0A7ServiceC8userInfoSo06CPUserE0CSgvM",
+                "mangledName": "$s12CPPushModule0A7ServiceC8userInfoSo06CPUserE0CSgvM",
+                "moduleName": "CPPushModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userInfo:services:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPushService",
+                "printedName": "CPPushModule.CPPushService",
+                "usr": "c:@M@CPPushModule@objc(cs)CPPushService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPUserInfo",
+                "printedName": "CPUtilities.CPUserInfo",
+                "usr": "c:objc(cs)CPUserInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CPUtilities.CPServiceProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPServiceProtocol",
+                    "printedName": "CPUtilities.CPServiceProtocol",
+                    "usr": "c:@M@CPUtilities@objc(pl)CPServiceProtocol"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12CPPushModule0A7ServiceC8userInfo8servicesACSo06CPUserE0C_Say11CPUtilities17CPServiceProtocol_pGtcfc",
+            "mangledName": "$s12CPPushModule0A7ServiceC8userInfo8servicesACSo06CPUserE0C_Say11CPUtilities17CPServiceProtocol_pGtcfc",
+            "moduleName": "CPPushModule",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPushModule@objc(cs)CPPushService(im)subscribeWithCompletion:",
+            "mangledName": "$s12CPPushModule0A7ServiceC9subscribe10completionyySo7CPErrorCSg_SSSgtc_tF",
+            "moduleName": "CPPushModule",
+            "objc_name": "subscribeWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPushModule@objc(cs)CPPushService(im)unsubscribeWithCompletion:",
+            "mangledName": "$s12CPPushModule0A7ServiceC11unsubscribe10completionyySo7CPErrorCSgc_tF",
+            "moduleName": "CPPushModule",
+            "objc_name": "unsubscribeWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkPushSubscription",
+            "printedName": "checkPushSubscription(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPushModule@objc(cs)CPPushService(im)checkPushSubscriptionWithCompletion:",
+            "mangledName": "$s12CPPushModule0A7ServiceC21checkPushSubscription10completionyySo7CPErrorCSg_SSSgtc_tF",
+            "moduleName": "CPPushModule",
+            "objc_name": "checkPushSubscriptionWithCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "injectPushMessage",
+            "printedName": "injectPushMessage(pushMessage:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CPUtilities.CPError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CPError",
+                        "printedName": "CPUtilities.CPError",
+                        "usr": "c:objc(cs)CPError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPushModule@objc(cs)CPPushService(im)injectPushMessageWithPushMessage:completion:",
+            "mangledName": "$s12CPPushModule0A7ServiceC17injectPushMessage04pushF010completionySDys11AnyHashableVypG_ySo7CPErrorCSgctF",
+            "moduleName": "CPPushModule",
+            "objc_name": "injectPushMessageWithPushMessage:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshDeviceToken",
+            "printedName": "refreshDeviceToken(_:voipDeviceToken:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CPUtilities.CPError?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(CPUtilities.CPError?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CPUtilities.CPError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CPError",
+                            "printedName": "CPUtilities.CPError",
+                            "usr": "c:objc(cs)CPError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPushModule@objc(cs)CPPushService(im)refreshDeviceToken:voipDeviceToken:completion:",
+            "mangledName": "$s12CPPushModule0A7ServiceC18refreshDeviceToken_04voipeF010completionySS_SSySo7CPErrorCSg_SSSgtctF",
+            "moduleName": "CPPushModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "parsePushNotification",
+            "printedName": "parsePushNotification(pushMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPCKInfo",
+                "printedName": "CPPushModule.CPCKInfo",
+                "usr": "c:@M@CPPushModule@objc(cs)CPCKInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CPPushModule@objc(cs)CPPushService(im)parsePushNotificationWithPushMessage:",
+            "mangledName": "$s12CPPushModule0A7ServiceC21parsePushNotification11pushMessageAA8CPCKInfoCSDys11AnyHashableVypG_tF",
+            "moduleName": "CPPushModule",
+            "objc_name": "parsePushNotificationWithPushMessage:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPPushService",
+                "printedName": "CPPushModule.CPPushService",
+                "usr": "c:@M@CPPushModule@objc(cs)CPPushService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CPPushModule@objc(cs)CPPushService(im)init",
+            "mangledName": "$s12CPPushModule0A7ServiceCACycfc",
+            "moduleName": "CPPushModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CPPushModule@objc(cs)CPPushService",
+        "mangledName": "$s12CPPushModule0A7ServiceC",
+        "moduleName": "CPPushModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPushModule\/CPPushModule\/CPPushService.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 15,
+      "value": "\"CPPushService\""
+    },
+    {
+      "filePath": "\/Users\/eceayvaz\/Desktop\/CPaaS-iOS-SDK\/CPaaSSDK\/Modules\/CPPushModule\/CPPushModule\/CPPushService.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 13,
+      "value": "\"CPPushModule.CPPushService\""
+    }
+  ]
+}

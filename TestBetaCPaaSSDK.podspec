@@ -35,8 +35,7 @@ TODO: Add long description of the pod here.
   s.preserve_paths = 'CPaaSSDK.xcframework/ios-arm64/CPaaSSDK.framework/SubFrameworks/*.framework', 'CPaaSSDK.xcframework/ios-arm64_x86_64-simulator/CPaaSSDK.framework/SubFrameworks/*.framework'
   s.user_target_xcconfig = {
       'ENABLE_BITCODE' => 'NO',
-      'FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]' => '$(inherited) "${PODS_ROOT}/KandyCPaaSMobileSDK/CPaaSSDK.xcframework/ios-arm64/CPaaSSDK.framework/SubFrameworks"',
-      'FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]' => '$(inherited) "${PODS_ROOT}/KandyCPaaSMobileSDK/CPaaSSDK.xcframework/ios-arm64_x86_64-simulator/CPaaSSDK.framework/SubFrameworks"',
+      'FRAMEWORK_SEARCH_PATHS' => '$(inherited)',
       'OTHER_LDFLAGS' => '$(inherited) -framework WebRTC -ObjC',
       'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
   }

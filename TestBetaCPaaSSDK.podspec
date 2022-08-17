@@ -17,9 +17,6 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'https://github.com/ece99/testBetaCpaasSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -32,10 +29,10 @@ TODO: Add long description of the pod here.
 
   s.library = ['c++','icucore','z','sqlite3','stdc++']
 
-  s.ios.frameworks = 'AVFoundation','SystemConfiguration','CFNetwork','Security','OpenGLES','QuartzCore','CoreAudio','CoreMedia','CoreVideo','CoreGraphics','GLKit','VideoToolbox','AudioToolbox','PushKit'
+  s.ios.frameworks = ['AVFoundation','SystemConfiguration','CFNetwork','Security','OpenGLES','QuartzCore','CoreAudio','CoreMedia','CoreVideo','CoreGraphics','GLKit','VideoToolbox','AudioToolbox','PushKit']
   s.vendored_frameworks = ['CPaaSSDK.xcframework']
 
-  s.preserve_paths = 'CPaaSSDK.xcframework/ios-arm64/CPaaSSDK.framework/SubFrameworks/*.framework', 'CPaaSSDK.xcframework/ios-arm64_x86_64-simulator/CPaaSSDK.framework/SubFrameworks/*.framework'
+  s.preserve_paths = ['CPaaSSDK.xcframework/ios-arm64/CPaaSSDK.framework/SubFrameworks/*.framework', 'CPaaSSDK.xcframework/ios-arm64_x86_64-simulator/CPaaSSDK.framework/SubFrameworks/*.framework']
 
   s.user_target_xcconfig = {
       'ENABLE_BITCODE' => 'NO',
